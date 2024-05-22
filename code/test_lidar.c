@@ -4,64 +4,50 @@
 #include <unistd.h>
 #include <arpa/inet.h>
 
-#define PORT 7788
-#define BUFFER_SIZE 2048
+#define PORT 6699
+#define BUFFER_SIZE 1024
 
 int main() {
-    int server_fd, new_socket;
-    struct sockaddr_in address;
-    int addrlen = sizeof(address);
-    char buffer[BUFFER_SIZE] = {0};
+    int sockfd;
+    struct sockaddr_in server_addr, client_addr;
+    char buffer[BUFFER_SIZE];
+    socklen_t addr_len = sizeof(client_addr);
 
-    // Créer le socket
-    if ((server_fd = socket(AF_INET, SOCK_STREAM, 0)) == 0) {
-        perror("socket failed");
+    // Créer une socket
+    if ((sockfd = socket(AF_INET, SOCK_DGRAM, 0)) < 0) {
+        perror("Socket creation failed");
         exit(EXIT_FAILURE);
     }
 
-    // Définir l'adresse et le port
-    address.sin_family = AF_INET;
-    address.sin_addr.s_addr = inet_addr("192.168.1.200");;
-    address.sin_port = htons(PORT);
+    // Configurer l'adresse du serveur
+    memset(&server_addr, 0, sizeof(server_addr));
+    server_addr.sin_family = AF_INET;
+    server_addr.sin_addr.s_addr = htonl(INADDR_ANY);
+    server_addr.sin_port = htons(PORT);
 
-    // Associer le socket à l'adresse et au port
-    if (bind(server_fd, (struct sockaddr *)&address, sizeof(address)) < 0) {
-        perror("bind failed");
-        close(server_fd);
+    // Lier la socket à l'adresse du serveur
+    if (bind(sockfd, (const struct sockaddr *)&server_addr, sizeof(server_addr)) < 0) {
+        perror("Bind failed");
+        close(sockfd);
         exit(EXIT_FAILURE);
     }
 
-    // Mettre le socket en mode écoute
-    if (listen(server_fd, 3) < 0) {
-        perror("listen failed");
-        close(server_fd);
-        exit(EXIT_FAILURE);
+    printf("Listening on port %d...\n", PORT);
+
+    // Boucle pour recevoir les paquets
+    while (1) {
+        int n = recvfrom(sockfd, (char *)buffer, BUFFER_SIZE, MSG_WAITALL, (struct sockaddr *)&client_addr, &addr_len);
+        if (n < 0) {
+            perror("Receive failed");
+            close(sockfd);
+            exit(EXIT_FAILURE);
+        }
+
+        buffer[n] = '\0'; // Null-terminate the received data
+        printf("Received packet: %s\n", buffer);
     }
 
-    printf("Listening on port %d\n", PORT);
-
-    // Accepter les connexions entrantes
-    if ((new_socket = accept(server_fd, (struct sockaddr *)&address, (socklen_t*)&addrlen)) < 0) {
-        perror("accept failed");
-        close(server_fd);
-        exit(EXIT_FAILURE);
-    }
-
-    // Lire les messages reçus et les afficher
-    int valread;
-    while ((valread = read(new_socket, buffer, BUFFER_SIZE)) > 0) {
-        printf("Message received: %s\n", buffer);
-        memset(buffer, 0, BUFFER_SIZE);  // Clear the buffer
-    }
-
-    if (valread < 0) {
-        perror("read failed");
-    }
-
-    // Fermer le socket
-    close(new_socket);
-    close(server_fd);
-
+    // Fermer la socket (en réalité, ce point ne sera jamais atteint à cause de la boucle infinie)
+    close(sockfd);
     return 0;
 }
-
