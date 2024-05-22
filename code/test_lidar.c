@@ -21,7 +21,7 @@ int main() {
 
     // Définir l'adresse et le port
     address.sin_family = AF_INET;
-    address.sin_addr.s_addr = INADDR_ANY;
+    address.sin_addr.s_addr = inet_addr("192.168.1.200");;
     address.sin_port = htons(PORT);
 
     // Associer le socket à l'adresse et au port
