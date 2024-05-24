@@ -3,14 +3,55 @@
 #include <string.h>
 #include <unistd.h>
 #include <arpa/inet.h>
+#include <errno.h>
 
 #define PORT 6699
-#define BUFFER_SIZE 1024
+#define BUFFER_SIZE 1248
+
+long hex_to_decimal(const char *hex_str) {
+    char *endptr;
+    errno = 0;  // Pour distinguer l'erreur de strtol
+    long decimal = strtol(hex_str, &endptr, 16);
+
+    // Vérification des erreurs
+    if (errno != 0) {
+        perror("strtol");
+        return -1;
+    }
+
+    if (endptr == hex_str) {
+        fprintf(stderr, "Aucune conversion n'a été effectuée : %s\n", hex_str);
+        return -1;
+    }
+
+    return decimal;
+}
+
+void read_header(unsigned char* packet){
+	unsigned char* timestamp = malloc(sizeof(unsigned char) * 10);
+	memcpy(timestamp,packet+20,10);
+	
+      	for (int i=0; i<10;i++){
+      		printf("%02X ",timestamp[i]);
+      	}
+}
+
+void read_datablock (unsigned char* packet){
+	for(int i = 0; i<12; i++){
+		unsigned char* timestamp = malloc(sizeof(unsigned char) * 100);
+		memcpy(timestamp,packet+48+100*i,100);
+		
+	      	for (int i=0; i<100;i++){
+	      		printf("%02X ",timestamp[i]);
+	      	}
+	      	printf("\n\n\n");
+	}
+}
 
 int main() {
     int sockfd;
     struct sockaddr_in server_addr, client_addr;
-    char buffer[BUFFER_SIZE];
+    unsigned char buffer[BUFFER_SIZE];
     socklen_t addr_len = sizeof(client_addr);
 
     // Créer une socket
@@ -35,8 +76,8 @@ int main() {
     printf("Listening on port %d...\n", PORT);
 
     // Boucle pour recevoir les paquets
-    while (1) {
-        int n = recvfrom(sockfd, (char *)buffer, BUFFER_SIZE, MSG_WAITALL, (struct sockaddr *)&client_addr, &addr_len);
+    {
+        ssize_t n = recvfrom(sockfd, buffer, BUFFER_SIZE, 0, (struct sockaddr *)&client_addr, &addr_len);
         if (n < 0) {
             perror("Receive failed");
             close(sockfd);
@@ -44,7 +85,12 @@ int main() {
         }
 
         buffer[n] = '\0'; // Null-terminate the received data
-        printf("Received packet: %s\n", buffer);
+      	//for (int i=42; i<BUFFER_SIZE-6;i++){
+      	//	printf("%02X ",buffer[i]);
+      	//}
+      	//printf("\n\n");
+      	//read_header(buffer);
+      	read_datablock(buffer);
     }
 
     // Fermer la socket (en réalité, ce point ne sera jamais atteint à cause de la boucle infinie)
