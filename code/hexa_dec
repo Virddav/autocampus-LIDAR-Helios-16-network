@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <errno.h>
+
+long hex_to_decimal(const char *hex_str) {
+    char *endptr;
+    errno = 0;  // Pour distinguer l'erreur de strtol
+    long decimal = strtol(hex_str, &endptr, 16);
+
+    // Vérification des erreurs
+    if (errno != 0) {
+        perror("strtol");
+        return -1;
+    }
+
+    if (endptr == hex_str) {
+        fprintf(stderr, "Aucune conversion n'a été effectuée : %s\n", hex_str);
+        return -1;
+    }
+
+    return decimal;
+}
+
+int main() {
+    const char *hex_str = "1A3F";
+    long decimal = hex_to_decimal(hex_str);
+
+    if (decimal != -1) {
+        printf("L'hexadécimal %s correspond au décimal %ld\n", hex_str, decimal);
+    } else {
+        printf("Erreur lors de la conversion de l'hexadécimal %s\n", hex_str);
+    }
+
+    return 0;
+}
