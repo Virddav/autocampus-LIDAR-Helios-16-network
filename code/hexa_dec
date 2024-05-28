@@ -1,23 +1,16 @@
-def hex_to_decimal(hex_value):
-    """
-    Converts an unsigned char hexadecimal value to its decimal representation.
-    
-    Parameters:
-    hex_value (str): A string representing the hexadecimal value (e.g., '0A', 'FF').
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdint.h>
 
-    Returns:
-    int: The decimal representation of the hexadecimal value.
-    """
-    # Ensure the input is a string
-    if not isinstance(hex_value, str):
-        raise ValueError("Input must be a string representing a hexadecimal value.")
+unsigned int hex_to_decimal(const char* hex_value) {
+    // Use strtoul to convert the hexadecimal string to an unsigned long
+    unsigned int decimal_value = strtoul(hex_value, NULL, 16);
+    return decimal_value;
+}
 
-    # Convert the hexadecimal string to a decimal integer
-    decimal_value = int(hex_value, 16)
-    
-    return decimal_value
-
-# Example usage
-hex_value = 'FF'
-decimal_value = hex_to_decimal(hex_value)
-print(f"The decimal representation of hex '{hex_value}' is {decimal_value}.")
+int main() {
+    const char* hex_value = "FF";
+    unsigned int decimal_value = hex_to_decimal(hex_value);
+    printf("The decimal representation of hex '%s' is %u.\n", hex_value, decimal_value);
+    return 0;
+}
