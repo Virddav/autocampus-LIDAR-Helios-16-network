@@ -1,16 +1,30 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdint.h>
 
-unsigned int hex_to_decimal(const char* hex_value) {
-    // Use strtoul to convert the hexadecimal string to an unsigned long
-    unsigned int decimal_value = strtoul(hex_value, NULL, 16);
+long int to_decimal(const char *t, int i) {
+    // Allocate a buffer to hold the substring plus the null terminator
+    char buffer[i + 1];
+    
+    // Copy the first i characters from t to buffer
+    for (int j = 0; j < i; j++) {
+        buffer[j] = t[j];
+    }
+    
+    // Null-terminate the buffer
+    buffer[i] = '\0';
+    
+    // Convert the hexadecimal string in buffer to a decimal value
+    long int decimal_value = strtol(buffer, NULL, 16);
+    
     return decimal_value;
 }
 
 int main() {
-    const char* hex_value = "FF";
-    unsigned int decimal_value = hex_to_decimal(hex_value);
-    printf("The decimal representation of hex '%s' is %u.\n", hex_value, decimal_value);
+    const char *hex_string = "1A3F";
+    int i = 3; // Number of characters to convert
+    
+    long int result = to_decimal(hex_string, i);
+    printf("The decimal value of the first %d characters of '%s' is %ld.\n", i, hex_string, result);
+    
     return 0;
 }
