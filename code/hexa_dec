@@ -1,35 +1,23 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <errno.h>
+def hex_to_decimal(hex_value):
+    """
+    Converts an unsigned char hexadecimal value to its decimal representation.
+    
+    Parameters:
+    hex_value (str): A string representing the hexadecimal value (e.g., '0A', 'FF').
 
-long hex_to_decimal(const char *hex_str) {
-    char *endptr;
-    errno = 0;  // Pour distinguer l'erreur de strtol
-    long decimal = strtol(hex_str, &endptr, 16);
+    Returns:
+    int: The decimal representation of the hexadecimal value.
+    """
+    # Ensure the input is a string
+    if not isinstance(hex_value, str):
+        raise ValueError("Input must be a string representing a hexadecimal value.")
 
-    // Vérification des erreurs
-    if (errno != 0) {
-        perror("strtol");
-        return -1;
-    }
+    # Convert the hexadecimal string to a decimal integer
+    decimal_value = int(hex_value, 16)
+    
+    return decimal_value
 
-    if (endptr == hex_str) {
-        fprintf(stderr, "Aucune conversion n'a été effectuée : %s\n", hex_str);
-        return -1;
-    }
-
-    return decimal;
-}
-
-int main() {
-    const char *hex_str = "1A3F";
-    long decimal = hex_to_decimal(hex_str);
-
-    if (decimal != -1) {
-        printf("L'hexadécimal %s correspond au décimal %ld\n", hex_str, decimal);
-    } else {
-        printf("Erreur lors de la conversion de l'hexadécimal %s\n", hex_str);
-    }
-
-    return 0;
-}
+# Example usage
+hex_value = 'FF'
+decimal_value = hex_to_decimal(hex_value)
+print(f"The decimal representation of hex '{hex_value}' is {decimal_value}.")
