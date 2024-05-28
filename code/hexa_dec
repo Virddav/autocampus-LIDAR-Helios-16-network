@@ -1,30 +1,18 @@
-#include <stdio.h>
-#include <stdlib.h>
+int hexToDecimal(const char* hex) {
+    int length = strlen(hex);
+    int base = 1; // 16^0
+    int decimal = 0;
 
-long int to_decimal(const char *t, int i) {
-    // Allocate a buffer to hold the substring plus the null terminator
-    char buffer[i + 1];
-    
-    // Copy the first i characters from t to buffer
-    for (int j = 0; j < i; j++) {
-        buffer[j] = t[j];
+    // Parcourir la chaîne de droite à gauche
+    for (int i = length - 1; i >= 0; i--) {
+        int val = hexCharToDec(hex[i]);
+        if (val == -1) {
+            // Si le caractère n'est pas valide, retourner -1 pour indiquer une erreur
+            printf("Caractère hexadécimal non valide: %c\n", hex[i]);
+            return -1;
+        }
+        decimal += val * base;
+        base *= 16; // Augmenter la base de puissance de 16
     }
-    
-    // Null-terminate the buffer
-    buffer[i] = '\0';
-    
-    // Convert the hexadecimal string in buffer to a decimal value
-    long int decimal_value = strtol(buffer, NULL, 16);
-    
-    return decimal_value;
-}
-
-int main() {
-    const char *hex_string = "1A3F";
-    int i = 3; // Number of characters to convert
-    
-    long int result = to_decimal(hex_string, i);
-    printf("The decimal value of the first %d characters of '%s' is %ld.\n", i, hex_string, result);
-    
-    return 0;
+    return decimal;
 }
