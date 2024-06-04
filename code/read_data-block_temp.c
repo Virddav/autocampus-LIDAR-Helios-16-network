@@ -8,15 +8,15 @@
 void read_datablock (unsigned char* packet){
 	for(int y = 0; y<12; y++){
 		unsigned char* azimuth = malloc(sizeof(unsigned char) * 2);
-		memcpy(azimuth,packet+48+2+98*y,2);
-        unsigned char* cloudpoint = malloc(sizeof(unsigned char) * 96);
-        memcpy(cloudpoint,packet+48+4+96*y,96);
+		memcpy(azimuth,packet+42+2+100*y,2);
+	        unsigned char* cloudpoint = malloc(sizeof(unsigned char) * 96);
+	        memcpy(cloudpoint,packet+42+4+100*y,96);
 
-        printf("Datablock %d : \nAzimuth = %02X%02X\n", y, azimuth[0], azimuth[1]);
-	    for (int i=0; i<96;i++){
-	      	printf("%02X ",cloudpoint[i]);
-	    }
-	    printf("\n\n\n");
+        	printf("Datablock %d : \nAzimuth = %02X%02X\n", y, azimuth[0], azimuth[1]);
+	    	for (int i=0; i<96;i++){
+	      		printf("%02X ",cloudpoint[i]);
+	    	}
+	    	printf("\n\n\n");
 	}
 }
 
