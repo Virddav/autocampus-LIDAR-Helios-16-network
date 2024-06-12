@@ -1,0 +1,35 @@
+{
+    "RAW_ItsPduHeaderMessageID_ID": {
+        "1": "denm",
+        "2": "cam",
+        "3": "poi",
+        "4": "spatem",
+        "5": "mapem",
+        "6": "ivim",
+        "7": "ev_rsr",
+        "8": "tistpgtransaction",
+        "9": "srem",
+        "10": "ssem",
+        "11": "evcsn",
+        "99": "dummy"
+    },
+    "RAW_ItsPduHeaderMessageID_Limit": {
+        "0": "Min",
+        "255": "Max"
+    },
+    "RAW_ItsPduHeaderProtocolVersion_ID": {
+        "1": "currentVersion"
+    },
+    "RAW_ItsPduHeaderProtocolVersion_Limit": {
+        "0": "Min",
+        "255": "Max"
+    },
+    "RAW_SequenceNumber_Limit": {
+        "0": "Min",
+        "65535": "Max"
+    },
+    "RAW_StationID_Limit": {
+        "0": "Min",
+        "4294967295": "Max"
+    }
+}

@@ -1,0 +1,32 @@
+RAW-PDU-Descriptions {
+ version (1) 
+}
+
+DEFINITIONS AUTOMATIC TAGS ::= 
+
+BEGIN
+
+DUMMYPDU ::= SEQUENCE {
+	header	ItsPduHeader,
+	dummy	DummyMsg
+}
+
+ItsPduHeader ::= SEQUENCE {
+    protocolVersion INTEGER{currentVersion(1)} (0..255),
+    messageID INTEGER{ denm(1), cam(2), poi(3), spatem(4), mapem(5), ivim(6), ev-rsr(7), tistpgtransaction(8), srem(9), ssem(10), evcsn(11), dummy(99) } (0..255),
+    stationID StationID
+}
+
+StationID ::= INTEGER(0..4294967295)
+
+DummyMsg ::= SEQUENCE {
+        sequenceNumber SequenceNumber,
+        someData SomeData
+}
+
+SequenceNumber ::= INTEGER (0..65535)
+
+SomeData ::= OCTET STRING (SIZE(1..20))
+
+END
+
