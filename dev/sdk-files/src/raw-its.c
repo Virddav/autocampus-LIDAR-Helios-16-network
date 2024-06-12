@@ -41,6 +41,7 @@
 #include "util.h"
 #include "etsi-trx-if.h"
 #include "etsi-cam-if.h"
+#include "time.h"
 
 //------------------------------------------------------------------------------
 // Local Macros & Constants
@@ -392,6 +393,7 @@ static void RAWIts_ThreadProc (void *pArg)
 
   // Initialise the timespec struct for the polling loop
   clock_gettime(CLOCK_MONOTONIC, &Time);
+  
 
   // "Starting RAW Periodic Thread");
   pRAW->ThreadState |= RAWITS_THREAD_STATE_RUN;
@@ -420,45 +422,41 @@ static void RAWIts_ThreadProc (void *pArg)
   int hello_messages_seq = 0;
   char hello_msg[RAWITS_DATA_BUF_SIZE];
   size_t hello_length = 0;
-
-
+  int cpt = 0;
+  clock_t start, end;
+  double timestamp;
+  start = clock();
   // Thread loop
-  while ((pRAW -> ThreadState & RAWITS_THREAD_STATE_STOP) == 0)
+  while (1)
   {
-    // AOC : Hello, World!
-    snprintf(hello_msg, RAWITS_DATA_BUF_SIZE,"Hello, World! (%d)", hello_messages_seq);
-    hello_messages_seq++;
+    snprintf(hello_data, RAWITS_DATA_BUF_SIZE, "Hello, World! (%d)", hello_count);
+    hello_count++;
 
-    hello_length = strlen(hello_msg) + 1;
-
-    if (hello_length <= RAWITS_DATA_BUF_SIZE){
-      memcpy(pRAW -> Params.Data, hello_msg, hello_length);
-      pRAW -> Params.DataLength = hello_length;
+    hello_length = strlen(hello_data)+1;
+    if(hello_length <= RAWITS_DATA_BUF_SIZE){
+      memcpy(pRAW->Params.Data, hello_data, hello_length);
+      pRAW->Params.DataLength = hello_length;
     }
+    // Obtenez l'heure actuelle
+    end = clock();
 
+    // Calculez le temps d'exécution en secondes
+    cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
 
+    // Si 10 secondes se sont écoulées, sortez de la boucle
+    if (cpu_time_used >= 10.0) {
+      break;
+    }
     // sleeping delay
-    Util_Nap(pRAW->Params.TxInterval, &Time);
-
-    // send something
-    RAWIts_ReqSend(RAWHandle, &pRAW->Params);
-  }
-  
-
-
-
-
-
-  // Thread loop
-  while ((pRAW->ThreadState & RAWITS_THREAD_STATE_STOP) == 0)
-  {
-    // sleeping delay
-    Util_Nap(pRAW->Params.TxInterval, &Time);
-
+    //Util_Nap(pRAW->Params.TxInterval, &Time);
+    
     // Send something
     RAWIts_ReqSend(RAWHandle, &pRAW->Params);
+
+    cpt++;
   }
 
+  d_printf(D_DEBUG, NULL,"[AOC] Nombre de message envoyé : %d", cpt);
   // Close BTP Port
   ETSIMSG_CloseInterface(RAWHandle);
 
@@ -652,6 +650,7 @@ Exit:
  *
  */
 
+static int cpt_recv = 0;
 
 static void RAWIts_ExtCallback(tExtEventId Event,
                                tExtMessage *pMsg,
@@ -709,6 +708,9 @@ static void RAWIts_ExtCallback(tExtEventId Event,
                 (int)pRawRx->header.stationID,
                 (int) pRawRx->dummy.sequenceNumber,
                 (char *)pRawRx->dummy.someData.buf);
+        cpt_recv++;
+        d_printf(D_DEBUG, NULL, "[AOC] Number of messages received : %d", cpt_recv);
+
         
 
         // Use the GSER encoder to show the message in the debug output
