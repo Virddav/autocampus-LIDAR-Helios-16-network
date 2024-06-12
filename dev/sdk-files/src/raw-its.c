@@ -456,7 +456,7 @@ static void RAWIts_ThreadProc (void *pArg)
     cpt++;
   }
 
-  d_printf(D_DEBUG, NULL,"[AOC] Nombre de message envoyé : %d", cpt);
+  d_printf(D_DEBUG, NULL,"[DEBIT] Nombre de message envoyé : %d", cpt);
   // Close BTP Port
   ETSIMSG_CloseInterface(RAWHandle);
 
@@ -709,7 +709,7 @@ static void RAWIts_ExtCallback(tExtEventId Event,
                 (int) pRawRx->dummy.sequenceNumber,
                 (char *)pRawRx->dummy.someData.buf);
         cpt_recv++;
-        d_printf(D_DEBUG, NULL, "[AOC] Number of messages received : %d", cpt_recv);
+        d_printf(D_DEBUG, NULL, "[DEBIT] Number of messages received : %d", cpt_recv);
 
         
 
