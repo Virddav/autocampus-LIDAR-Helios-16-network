@@ -393,7 +393,6 @@ static void RAWIts_ThreadProc (void *pArg)
 
   // Initialise the timespec struct for the polling loop
   clock_gettime(CLOCK_MONOTONIC, &Time);
-  
 
   // "Starting RAW Periodic Thread");
   pRAW->ThreadState |= RAWITS_THREAD_STATE_RUN;
@@ -429,12 +428,12 @@ static void RAWIts_ThreadProc (void *pArg)
   // Thread loop
   while (1)
   {
-    snprintf(hello_data, RAWITS_DATA_BUF_SIZE, "Hello, World! (%d)", hello_count);
-    hello_count++;
+    snprintf(hello_msg, RAWITS_DATA_BUF_SIZE,"Hello, World! (%d)", hello_messages_seq);
+    hello_messages_seq++;
 
-    hello_length = strlen(hello_data)+1;
+    hello_length = strlen(hello_msg) + 1;
     if(hello_length <= RAWITS_DATA_BUF_SIZE){
-      memcpy(pRAW->Params.Data, hello_data, hello_length);
+      memcpy(pRAW -> Params.Data, hello_msg, hello_length);
       pRAW->Params.DataLength = hello_length;
     }
     // Obtenez l'heure actuelle
