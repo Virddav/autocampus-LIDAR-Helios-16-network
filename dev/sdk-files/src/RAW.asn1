@@ -1,8 +1,8 @@
 RAW-PDU-Descriptions {
- version (1) 
+ version (1)
 }
 
-DEFINITIONS AUTOMATIC TAGS ::= 
+DEFINITIONS AUTOMATIC TAGS ::=
 
 BEGIN
 
@@ -26,7 +26,6 @@ DummyMsg ::= SEQUENCE {
 
 SequenceNumber ::= INTEGER (0..65535)
 
-SomeData ::= OCTET STRING (SIZE(1..20))
+SomeData ::= OCTET STRING (SIZE(1..18720))
 
 END
-

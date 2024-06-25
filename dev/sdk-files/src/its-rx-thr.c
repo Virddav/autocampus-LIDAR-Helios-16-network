@@ -48,7 +48,7 @@
 
 #define D_LEVEL ExampleETSI_ExampleETSI_ITSRx_DebugLevel
 
-#define QSQUEUE_ITS_RX   QSQUEUE_APP1
+#define QSQUEUE_ITS_RX QSQUEUE_APP1
 #define QSMSG_ITS_RX_PDU QS_BASE_MSG_APP1
 
 #define ITS_RX_RECV_TIMEOUT_MS (500)
@@ -57,24 +57,22 @@
 // Local Type definitions
 //------------------------------------------------------------------------------
 
-
 //------------------------------------------------------------------------------
 // Local (static) Function Prototypes
 //------------------------------------------------------------------------------
 
-static void ITSRx_ThreadProc (void *pArg);
+static void ITSRx_ThreadProc(void *pArg);
 
-static void ITSRx_ExtCallback (tExtEventId Event,
-                               tExtMessage *pData,
-                               void *pPriv);
+static void ITSRx_ExtCallback(tExtEventId Event,
+                              tExtMessage *pData,
+                              void *pPriv);
 
-static void ITSRx_ProcessMessage (const tExtMessage *pData,
-                                  struct ITSCtrl *pITS);
+static void ITSRx_ProcessMessage(const tExtMessage *pData,
+                                 struct ITSCtrl *pITS);
 
 //------------------------------------------------------------------------------
 // Local Variables
 //------------------------------------------------------------------------------
-
 
 //------------------------------------------------------------------------------
 // API Functions
@@ -85,7 +83,7 @@ static void ITSRx_ProcessMessage (const tExtMessage *pData,
  * @param pITS pointer to ITS handle
  * @return Zero for success or an negative errno
  */
-int ITSRx_Open (struct ITSCtrl *pITS)
+int ITSRx_Open(struct ITSCtrl *pITS)
 {
   int Res;
 
@@ -125,7 +123,7 @@ Success:
  * @brief Stop execution of ITS, free the thread and its associated resources
  * @param pITS ITS handle
  */
-void ITSRx_Close (struct ITSCtrl *pITS)
+void ITSRx_Close(struct ITSCtrl *pITS)
 {
   int Res;
 
@@ -146,7 +144,7 @@ void ITSRx_Close (struct ITSCtrl *pITS)
   Res = 0;
 
 Error:
-  (void)Res;    // value not currently used
+  (void)Res; // value not currently used
 
   return;
 }
@@ -162,9 +160,9 @@ Error:
  * @param pPriv Private data (tITSCtrl)
  *
  */
-static void ITSRx_ExtCallback (tExtEventId Event,
-                               tExtMessage *pData,
-                               void *pPriv)
+static void ITSRx_ExtCallback(tExtEventId Event,
+                              tExtMessage *pData,
+                              void *pPriv)
 {
 
   struct ITSCtrl *pITS = (struct ITSCtrl *)pPriv;
@@ -181,39 +179,45 @@ static void ITSRx_ExtCallback (tExtEventId Event,
     // Any processing here is performed within the EXT notification thread's context
     switch (pData->pPDU->messageID)
     {
-      case ITSItsPduHeaderMessageID_ID_denm:
-      {
-        const ITSDENM *pDenmPdu = pData->pDENM;
-        d_printf(D_INFO, NULL,
-                 "Received a decoded ITSFL DENM! StationId 0x%08x seqNo %d\n",
-                 pDenmPdu->header.stationID,
-                 pDenmPdu->denm.management.actionID.sequenceNumber);
-         break;
-      }
+    case ITSItsPduHeaderMessageID_ID_denm:
+    {
+      const ITSDENM *pDenmPdu = pData->pDENM;
+      d_printf(D_INFO, NULL,
+               "Received a decoded ITSFL DENM! StationId 0x%08x seqNo %d\n",
+               pDenmPdu->header.stationID,
+               pDenmPdu->denm.management.actionID.sequenceNumber);
+      break;
+    }
 
-      case ITSItsPduHeaderMessageID_ID_cam:
-      {
-        const ITSCAM *pCamPdu = pData->pCAM;
-        d_printf(D_INFO, NULL,
-                 "Received a decoded ITSFL CAM! StationId 0x%08x dTime %d\n",
-                 pCamPdu->header.stationID,
-                 pCamPdu->cam.generationDeltaTime);
-        break;
-      }
+    case ITSItsPduHeaderMessageID_ID_cam:
+    {
+      const ITSCAM *pCamPdu = pData->pCAM;
+      d_printf(D_INFO, NULL,
+               "Received a decoded ITSFL CAM! StationId 0x%08x dTime %d\n",
+               pCamPdu->header.stationID,
+               pCamPdu->cam.generationDeltaTime);
+      d_printf(D_DEBUG, NULL,
+               "[AOC] Received a decoded ITSFL CAM! StationId 0x%08x dTime %d\n",
+               pCamPdu->header.stationID,
+               pCamPdu->cam.generationDeltaTime);
+      break;
+    }
 
-      case ITSItsPduHeaderMessageID_ID_saem:
-      {
-        const ITSSAEM *pSAPdu = (const ITSSAEM *)pData->pPDU;
-        d_printf(D_INFO, NULL,
-                 "Received a decoded ITSFL SAEM! StationId 0x%08x, SAID %d, Change %d\n",
-                 pSAPdu->header.stationID,
-                 pSAPdu->sam.body.changeCount.saID,
-                 pSAPdu->sam.body.changeCount.contentCount);
-        break;
-      }
+    case ITSItsPduHeaderMessageID_ID_saem:
+    {
+      const ITSSAEM *pSAPdu = (const ITSSAEM *)pData->pPDU;
+      d_printf(D_INFO, NULL,
+               "Received a decoded ITSFL SAEM! StationId 0x%08x, SAID %d, Change %d\n",
+               pSAPdu->header.stationID,
+               pSAPdu->sam.body.changeCount.saID,
+               pSAPdu->sam.body.changeCount.contentCount);
+      break;
+    }
 
-      default:
-        break;
+    default:
+      d_printf(D_DEBUG, NULL,
+               "[AOC] Recieved message that is not CAM, nor ITSFL SAEM, nor ITSFL DENM.(Default processing.)\n");
+      break;
     }
 
     pITS->Stats.Rx.Okay++;
@@ -231,7 +235,7 @@ static void ITSRx_ExtCallback (tExtEventId Event,
  * @param pArg Pointer to @ref ITSCtrl object passed as generic input parameter
  *
  */
-static void ITSRx_ThreadProc (void *pArg)
+static void ITSRx_ThreadProc(void *pArg)
 {
   struct ITSCtrl *pITS = (struct ITSCtrl *)pArg;
 
@@ -239,6 +243,7 @@ static void ITSRx_ThreadProc (void *pArg)
   if (Status != QS_ERR_NONE)
   {
     d_error(D_ERR, NULL, "Unable to initialise its-rx message queue\n");
+    d_error(D_DEBUG, NULL, "[AOC] Unable to initialise its-rx message queue\n");
     pthread_exit(NULL);
   }
 
@@ -247,6 +252,7 @@ static void ITSRx_ThreadProc (void *pArg)
   if (ExtHandle < 0)
   {
     d_error(D_ERR, NULL, "Unable to register callback with EXT module\n");
+    d_error(D_DEBUG, NULL, "[AOC] Unable to register callback with EXT module\n");
     (void)Msg_QueueDeInit(QSQUEUE_ITS_RX);
     pthread_exit(NULL);
   }
@@ -256,10 +262,9 @@ static void ITSRx_ThreadProc (void *pArg)
   while ((pITS->Rx.ThreadState & ITS_THREAD_STATE_STOP) == 0)
   {
     const struct timeval Timeout =
-    {
-      .tv_sec  = ITS_RX_RECV_TIMEOUT_MS / 1000,
-      .tv_usec = (ITS_RX_RECV_TIMEOUT_MS % 1000) * 1000
-    };
+        {
+            .tv_sec = ITS_RX_RECV_TIMEOUT_MS / 1000,
+            .tv_usec = (ITS_RX_RECV_TIMEOUT_MS % 1000) * 1000};
     tQsMessage Msg;
 
     const tQsStatus Stat = Msg_RecvTimed(QSQUEUE_ITS_RX, &Msg, &Timeout);
@@ -279,33 +284,39 @@ static void ITSRx_ThreadProc (void *pArg)
                "Local CAM StationId 0x%08x role %d\n",
                Info.stationID,
                Info.role);
+      d_printf(D_DEBUG, NULL,
+               "[AOC] Local CAM StationId 0x%08x role %d\n",
+               Info.stationID,
+               Info.role);
 
       continue;
     }
     else if (Stat != QS_ERR_NONE)
     {
       d_error(D_ERR, NULL, "Failed to receive on its-rx queue\n");
+      d_error(D_DEBUG, NULL, "[AOC] Failed to receive on its-rx queue\n");
       break;
     }
 
     switch (Msg.Id)
     {
-      case QSMSG_ITS_RX_PDU:
+    case QSMSG_ITS_RX_PDU:
+    {
+      tExtMessage *pExtMsg = Msg.Ref.pPayload;
+      if (pExtMsg)
       {
-        tExtMessage * pExtMsg = Msg.Ref.pPayload;
-        if (pExtMsg)
-        {
-          ITSRx_ProcessMessage(pExtMsg, pITS);
-          Ext_Release(pExtMsg);
-        }
-        break;
+        ITSRx_ProcessMessage(pExtMsg, pITS);
+        Ext_Release(pExtMsg);
       }
-      default:
-        break;
+      break;
+    }
+    default:
+      break;
     }
   }
 
   d_printf(D_INFO, 0, "ITS Rx thread done\n");
+  d_printf(D_DEBUG, 0, "[AOC] ITS Rx thread done\n");
 
   (void)Ext_CallbackDeregister(ExtHandle);
   (void)Msg_QueueDeInit(QSQUEUE_ITS_RX);
@@ -317,129 +328,135 @@ static void ITSRx_ThreadProc (void *pArg)
  * @param pData Ext Message to process
  * @param pITS pointer to ITS handle
  */
-static void ITSRx_ProcessMessage (const tExtMessage *pData,
-                                  struct ITSCtrl *pITS)
+static void ITSRx_ProcessMessage(const tExtMessage *pData,
+                                 struct ITSCtrl *pITS)
 {
+  d_printf(D_DEBUG, NULL,
+           "[AOC] Processing recieved message in its-rx-thr.\n");
   d_assert(pData);
-
+  d_printf(D_DEBUG, NULL,
+           "[AOC] Message not null.\n");
   (void)pITS;
 
   switch (pData->pPDU->messageID)
   {
-    case ITSItsPduHeaderMessageID_ID_denm:
+  case ITSItsPduHeaderMessageID_ID_denm:
+  {
+    const ITSDENM *pDenmPdu = pData->pDENM;
+    d_printf(D_INFO, NULL,
+             "Processing a decoded ITSFL DENM! StationId 0x%08x seqNo %04x\n",
+             pDenmPdu->header.stationID,
+             pDenmPdu->denm.management.actionID.sequenceNumber);
+
+    // Further example of how to access some details in the decoded DENM structure
+    if (pDenmPdu->denm.situation_option)
     {
-      const ITSDENM *pDenmPdu = pData->pDENM;
       d_printf(D_INFO, NULL,
-               "Processing a decoded ITSFL DENM! StationId 0x%08x seqNo %04x\n",
-               pDenmPdu->header.stationID,
-               pDenmPdu->denm.management.actionID.sequenceNumber);
+               "DENM has situation eventType with causeCode %d, subCauseCode %d\n",
+               pDenmPdu->denm.situation.eventType.causeCode,
+               pDenmPdu->denm.situation.eventType.subCauseCode);
+    }
 
-      // Further example of how to access some details in the decoded DENM structure
-      if (pDenmPdu->denm.situation_option)
-      {
-        d_printf(D_INFO, NULL,
-                 "DENM has situation eventType with causeCode %d, subCauseCode %d\n",
-                 pDenmPdu->denm.situation.eventType.causeCode,
-                 pDenmPdu->denm.situation.eventType.subCauseCode);
-      }
+    // Example of avoiding unnecessary processing (e.g. when debug-level would inhibit output anyway)
+    if (d_test(D_INFO))
+    {
+      unsigned int Len;
+      uint8_t *pBuf;
 
-      // Example of avoiding unnecessary processing (e.g. when debug-level would inhibit output anyway)
-      if (d_test(D_INFO))
-      {
-        unsigned int Len;
-        uint8_t *pBuf;
+      // Example of how to encode DENM to PER using the ASN utility function
+      // ETSASN_EncodeToPER will create the buffer for the PER data
+      pBuf = ETSASN_EncodeToPER(asn1_type_ITSDENM, pData->pPDU, &Len);
+      d_printf(D_INFO, NULL, "DENM PER data is %d octets\n", Len);
+      free(pBuf);
 
-        // Example of how to encode DENM to PER using the ASN utility function
-        // ETSASN_EncodeToPER will create the buffer for the PER data
-        pBuf = ETSASN_EncodeToPER(asn1_type_ITSDENM, pData->pPDU, &Len);
-        d_printf(D_INFO, NULL, "DENM PER data is %d octets\n", Len);
-        free(pBuf);
+      // Example of how to encode DENM to XER using the ASN utility function
+      // ETSASN_EncodeToXER will create the buffer for the XER string
+      pBuf = (uint8_t *)ETSASN_EncodeToXER(asn1_type_ITSDENM, pData->pPDU, &Len);
+      d_printf(D_INFO, NULL, "XER:\n%s", pBuf);
+      free(pBuf);
+    }
 
-        // Example of how to encode DENM to XER using the ASN utility function
-        // ETSASN_EncodeToXER will create the buffer for the XER string
-        pBuf = (uint8_t *)ETSASN_EncodeToXER(asn1_type_ITSDENM, pData->pPDU, &Len);
-        d_printf(D_INFO, NULL, "XER:\n%s", pBuf);
-        free(pBuf);
-      }
+    break;
+  }
 
+  case ITSItsPduHeaderMessageID_ID_cam:
+  {
+    const ITSCAM *pCamPdu = pData->pCAM;
+    d_printf(D_INFO, NULL,
+             "Processing a decoded ITSFL CAM! StationId 0x%08x dTime %04d\n",
+             pCamPdu->header.stationID,
+             pCamPdu->cam.generationDeltaTime);
+
+    // Example of avoiding unnecessary processing (e.g. when debug-level would inhibit output anyway)
+    if (d_test(D_INFO))
+    {
+      // Example of how to encode CAM to GSER using the ASN utility function
+      // ETSASN_GSERPrint will print the GSER-encoded data
+      (void)ETSASN_GSERPrint(asn1_type_ITSCAM, pData->pPDU);
+    }
+
+    break;
+  }
+
+  case ITSItsPduHeaderMessageID_ID_saem:
+  {
+    tSAStatusCode Stat;
+    const ITSSAEM *pSAPdu = (const ITSSAEM *)pData->pPDU;
+    d_printf(D_INFO, NULL,
+             "Processing a decoded ITSFL SAEM! StationId 0x%08x, SAID %d, Change %d\n",
+             pSAPdu->header.stationID,
+             pSAPdu->sam.body.changeCount.saID,
+             pSAPdu->sam.body.changeCount.contentCount);
+
+    tETSISA_Info SAInfo;
+
+    // Get generic information
+    Stat = ETSISA_UserInfoSA(pSAPdu, &SAInfo);
+
+    if (Stat != ETSISA_SUCCESS)
+    {
       break;
     }
 
-    case ITSItsPduHeaderMessageID_ID_cam:
+    if (SAInfo.AdvIdLen > 0)
     {
-      const ITSCAM *pCamPdu = pData->pCAM;
-      d_printf(D_INFO, NULL,
-               "Processing a decoded ITSFL CAM! StationId 0x%08x dTime %04d\n",
-               pCamPdu->header.stationID,
-               pCamPdu->cam.generationDeltaTime);
-
-      // Example of avoiding unnecessary processing (e.g. when debug-level would inhibit output anyway)
-      if (d_test(D_INFO))
-      {
-        // Example of how to encode CAM to GSER using the ASN utility function
-        // ETSASN_GSERPrint will print the GSER-encoded data
-        (void)ETSASN_GSERPrint(asn1_type_ITSCAM, pData->pPDU);
-      }
-
-      break;
+      // Assume ASCII string for debug
+      // But ensure AdvId null terminated
+      SAInfo.AdvId[SAInfo.AdvIdLen] = '\0';
+      d_printf(D_INFO, NULL, "AdvID %s\n", (char *)SAInfo.AdvId);
     }
 
-    case ITSItsPduHeaderMessageID_ID_saem:
+    if (SAInfo.NumAID > 0)
     {
-      tSAStatusCode Stat;
-      const ITSSAEM *pSAPdu = (const ITSSAEM *)pData->pPDU;
-      d_printf(D_INFO, NULL,
-               "Processing a decoded ITSFL SAEM! StationId 0x%08x, SAID %d, Change %d\n",
-               pSAPdu->header.stationID,
-               pSAPdu->sam.body.changeCount.saID,
-               pSAPdu->sam.body.changeCount.contentCount);
+      // Demo service of interest
+      uint32_t ITSAID = 0x200;
 
-      tETSISA_Info SAInfo;
-
-      // Get generic information
-      Stat = ETSISA_UserInfoSA(pSAPdu, &SAInfo);
-
-      if (Stat != ETSISA_SUCCESS)
+      if (SAInfo.AIDList.AID[0] == ITSAID)
       {
-        break;
-      }
+        tSAService Service;
 
-      if (SAInfo.AdvIdLen > 0)
-      {
-        // Assume ASCII string for debug
-        // But ensure AdvId null terminated
-        SAInfo.AdvId[SAInfo.AdvIdLen] = '\0';
-        d_printf(D_INFO, NULL, "AdvID %s\n", (char *)SAInfo.AdvId);
-      }
+        // Get service specific information
+        Stat = ETSISA_UserQuerySA(pSAPdu, ITSAID, &Service);
 
-      if (SAInfo.NumAID > 0)
-      {
-        // Demo service of interest
-        uint32_t ITSAID = 0x200;
-
-        if (SAInfo.AIDList.AID[0] == ITSAID)
+        if (Stat == 0)
         {
-          tSAService Service;
-
-          // Get service specific information
-          Stat = ETSISA_UserQuerySA(pSAPdu, ITSAID, &Service);
-
-          if (Stat == 0)
-          {
-            d_printf(D_INFO, NULL, "Found service %08x, PSC Len is %d, Application Data len is %d\n",
-                     ITSAID, Service.PSCLen, Service.ApplicationDataLen);
-          }
+          d_printf(D_INFO, NULL, "Found service %08x, PSC Len is %d, Application Data len is %d\n",
+                   ITSAID, Service.PSCLen, Service.ApplicationDataLen);
         }
       }
-      break;
     }
+    break;
+  }
 
-    default:
-    {
-      d_printf(D_INFO, NULL, "Processing a decoded ITSFL with message id %d\n",
-               pData->pPDU->messageID);
-      break;
-    }
+  default:
+  {
+    d_printf(D_INFO, NULL, "Processing a decoded ITSFL with message id %d\n",
+             pData->pPDU->messageID);
+    d_printf(D_DEBUG, NULL, "[AOC] Processing a decoded ITSFL with message id %d\n",
+             pData->pPDU->messageID);
+
+    break;
+  }
   }
 }
 

@@ -55,13 +55,13 @@
 //------------------------------------------------------------------------------
 
 /// Location of the CANVState configuration settings
-#define CANVSTATE_CONFIG_PATH_NAME  "Example.CANVState"
+#define CANVSTATE_CONFIG_PATH_NAME "Example.CANVState"
 
 // Configuration value names
-#define CANVSTATE_CONFIG_VALUE_NAME_POLLINGINTERVAL      "PollingInterval"
+#define CANVSTATE_CONFIG_VALUE_NAME_POLLINGINTERVAL "PollingInterval"
 
 // Configuration value defaults for mandatory items
-#define CANVSTATE_CONFIG_VALUE_DEFAULT_POLLINGINTERVAL           (500)
+#define CANVSTATE_CONFIG_VALUE_DEFAULT_POLLINGINTERVAL (500)
 
 //-----------------------------------------------------------------------------
 // Type Definitions
@@ -70,16 +70,16 @@
 /// State IDs for the CAN-VState thread
 typedef enum CANVStateETSIThreadState
 {
-  /// Not initialized
-  CANVSTATE_THREAD_STATE_NONE = 0x00,
-  /// Initializing
-  CANVSTATE_THREAD_STATE_INIT = 0x01,
-  /// Running
-  CANVSTATE_THREAD_STATE_RUN  = 0x02,
-  /// Stopping
-  CANVSTATE_THREAD_STATE_STOP = 0x04,
-  /// Stopped
-  CANVSTATE_THREAD_STATE_END  = 0x08,
+    /// Not initialized
+    CANVSTATE_THREAD_STATE_NONE = 0x00,
+    /// Initializing
+    CANVSTATE_THREAD_STATE_INIT = 0x01,
+    /// Running
+    CANVSTATE_THREAD_STATE_RUN = 0x02,
+    /// Stopping
+    CANVSTATE_THREAD_STATE_STOP = 0x04,
+    /// Stopped
+    CANVSTATE_THREAD_STATE_END = 0x08,
 } eCANVStateETSIThreadState;
 /// @ref CANVStateETSIThreadState
 typedef int tCANVStateETSIThreadState;
@@ -87,52 +87,52 @@ typedef int tCANVStateETSIThreadState;
 /// CANVState Statistics
 typedef struct CANVStateETSIStats
 {
-  /// Receive counters
-  struct {
-    uint32_t Count;
-  } Rx;
+    /// Receive counters
+    struct
+    {
+        uint32_t Count;
+    } Rx;
 
 } tCANVStateETSIStats;
 
 /// CANVState parameters - Stored in Config File
 typedef struct CANVStateETSIParams
 {
-  /// Period in ms
-  uint32_t PollingInterval; // just for the thread sleep
+    /// Period in ms
+    uint32_t PollingInterval; // just for the thread sleep
 
 } tCANVStateETSIParams;
 
 /// CANVState state
 typedef struct CANVStateETSI
 {
-  /// ID of CANVState thread
-  pthread_t ThreadID;
-  /// CANVState thread state
-  tCANVStateETSIThreadState ThreadState;
-  /// Attributes used for thread
-  pthread_attr_t ThreadAttr;
-  /// Lock to be used when accessing data
-  pthread_mutex_t Lock;
-  /// Module statistics
-  tCANVStateETSIStats Stats;
-  /// Configuration
-  tCANVStateETSIParams Params;
-  /// Most recently received CAN msg
-  tCANRxMsg Msg;
+    /// ID of CANVState thread
+    pthread_t ThreadID;
+    /// CANVState thread state
+    tCANVStateETSIThreadState ThreadState;
+    /// Attributes used for thread
+    pthread_attr_t ThreadAttr;
+    /// Lock to be used when accessing data
+    pthread_mutex_t Lock;
+    /// Module statistics
+    tCANVStateETSIStats Stats;
+    /// Configuration
+    tCANVStateETSIParams Params;
+    /// Most recently received CAN msg
+    tCANRxMsg Msg;
 } tCANVStateETSI;
 
 //-----------------------------------------------------------------------------
 // Function Declarations
 //-----------------------------------------------------------------------------
 
-int CANVState_Open (tCANVStateETSI **ppCV,
-                pthread_attr_t *pAttr,
-                char *pConfigFileName);
+int CANVState_Open(tCANVStateETSI **ppCV,
+                   pthread_attr_t *pAttr,
+                   char *pConfigFileName);
 
-void CANVState_Close (tCANVStateETSI *pCV);
+void CANVState_Close(tCANVStateETSI *pCV);
 
-void CANVState_PrintStats (tCANVStateETSI *pCV);
-
+void CANVState_PrintStats(tCANVStateETSI *pCV);
 
 #endif // __CAN_VSTATE_H_
 /**

@@ -58,7 +58,7 @@ typedef union sigval sigval_t;
 // Local (static) Function Prototypes
 //------------------------------------------------------------------------------
 
-static void PosExt_Action (sigval_t SigVal);
+static void PosExt_Action(sigval_t SigVal);
 
 //------------------------------------------------------------------------------
 // Local Variables
@@ -76,91 +76,91 @@ timer_t Id;
  */
 int PosExt_Init(void)
 {
-  struct sigevent Evt;
-  struct itimerspec Spec;
-  int Res = 0;
+    struct sigevent Evt;
+    struct itimerspec Spec;
+    int Res = 0;
 
-  d_printf(D_DBG, NULL, "()\n");
+    d_printf(D_DBG, NULL, "()\n");
 
-  memset(&Evt, 0, sizeof(Evt));
-  Evt.sigev_notify = SIGEV_THREAD;
-  Evt.sigev_notify_function = PosExt_Action;
+    memset(&Evt, 0, sizeof(Evt));
+    Evt.sigev_notify = SIGEV_THREAD;
+    Evt.sigev_notify_function = PosExt_Action;
 
-  // Use a repeating timer to update position API
-  Res = timer_create(CLOCK_REALTIME, &Evt, &Id);
-  if (Res != 0)
-  {
-    d_error(D_WARN, NULL, "Timer create failed (errno %d, %s)\n",
-            errno, strerror(errno));
-    goto Exit;
-  }
+    // Use a repeating timer to update position API
+    Res = timer_create(CLOCK_REALTIME, &Evt, &Id);
+    if (Res != 0)
+    {
+        d_error(D_WARN, NULL, "Timer create failed (errno %d, %s)\n",
+                errno, strerror(errno));
+        goto Exit;
+    }
 
-  // Timer is repeating
-  Spec.it_interval.tv_sec = 1;
-  Spec.it_interval.tv_nsec = 0;
+    // Timer is repeating
+    Spec.it_interval.tv_sec = 1;
+    Spec.it_interval.tv_nsec = 0;
 
-  Spec.it_value.tv_sec = 1;
-  Spec.it_value.tv_nsec = 0;
+    Spec.it_value.tv_sec = 1;
+    Spec.it_value.tv_nsec = 0;
 
-  Res = timer_settime(Id, 0, &Spec, NULL);
-  if (Res != 0)
-  {
-    d_error(D_WARN, NULL, "Timer start failed (errno %d, %s)\n",
-            errno, strerror(errno));
-    goto Exit;
-  }
+    Res = timer_settime(Id, 0, &Spec, NULL);
+    if (Res != 0)
+    {
+        d_error(D_WARN, NULL, "Timer start failed (errno %d, %s)\n",
+                errno, strerror(errno));
+        goto Exit;
+    }
 
 Exit:
-  return Res;
+    return Res;
 }
 
 /**
  * @brief Periodic position provider action
  * @param SigVal Signal (not used)
  */
-static void PosExt_Action (sigval_t SigVal)
+static void PosExt_Action(sigval_t SigVal)
 {
-  d_printf(D_DBG, NULL, "()\n");
+    d_printf(D_DBG, NULL, "()\n");
 
-  tLPHPosFixReturnCode Stat;
-  tLPHPosFix PosFix;
+    tLPHPosFixReturnCode Stat;
+    tLPHPosFix PosFix;
 
-  // Not required
-  (void) SigVal;
+    // Not required
+    (void)SigVal;
 
-  // Update position information
-  struct timespec TimeUTC;
-  clock_gettime(CLOCK_REALTIME, &TimeUTC);
+    // Update position information
+    struct timespec TimeUTC;
+    clock_gettime(CLOCK_REALTIME, &TimeUTC);
 
-  // Typically, for an OBU, the time, lat, long, alt, heading, speed and
-  // position accuracy are the minimum data set
-  PosFix.Mode = LPH_POS_FIX_MODE_3D;
-  PosFix.UtcTime_s = TimeUTC.tv_sec + (TimeUTC.tv_nsec / 1000000000.0);
-  PosFix.Latitude_deg = -34.0;
-  PosFix.Longitude_deg = 138.1;
-  PosFix.Altitude_m = 10.0;
-  PosFix.Heading_deg = 45.0;
-  PosFix.GroundSpeed_mps = 1.0;
-  PosFix.VerticalSpeed_mps = NAN;
+    // Typically, for an OBU, the time, lat, long, alt, heading, speed and
+    // position accuracy are the minimum data set
+    PosFix.Mode = LPH_POS_FIX_MODE_3D;
+    PosFix.UtcTime_s = TimeUTC.tv_sec + (TimeUTC.tv_nsec / 1000000000.0);
+    PosFix.Latitude_deg = -34.0;
+    PosFix.Longitude_deg = 138.1;
+    PosFix.Altitude_m = 10.0;
+    PosFix.Heading_deg = 45.0;
+    PosFix.GroundSpeed_mps = 1.0;
+    PosFix.VerticalSpeed_mps = NAN;
 
-  PosFix.UtcTimeErr_s = NAN;
-  PosFix.PosErrSemiMajorAxisLen_m = 5.0;
-  PosFix.PosErrSemiMinorAxisLen_m = 2.5;
-  PosFix.PosErrSemiMajorAxisOrientation_deg = 90.0;
-  PosFix.AltitudeErr_m = NAN;
-  PosFix.HeadingErr_deg = NAN;
-  PosFix.GroundSpeedErr_mps = NAN;
-  PosFix.VerticalSpeedErr_mps = NAN;
+    PosFix.UtcTimeErr_s = NAN;
+    PosFix.PosErrSemiMajorAxisLen_m = 5.0;
+    PosFix.PosErrSemiMinorAxisLen_m = 2.5;
+    PosFix.PosErrSemiMajorAxisOrientation_deg = 90.0;
+    PosFix.AltitudeErr_m = NAN;
+    PosFix.HeadingErr_deg = NAN;
+    PosFix.GroundSpeedErr_mps = NAN;
+    PosFix.VerticalSpeedErr_mps = NAN;
 
-  PosFix.SatellitesVisible = LPH_POS_FIX_UNKNOWN_SATELLITES_VIS;
-  PosFix.DOP = NAN;
+    PosFix.SatellitesVisible = LPH_POS_FIX_UNKNOWN_SATELLITES_VIS;
+    PosFix.DOP = NAN;
 
-  Stat = LPHPosFix_Position(&PosFix);
+    Stat = LPHPosFix_Position(&PosFix);
 
-  if (Stat != LPH_POS_FIX_SUCCESS)
-  {
-    d_error(D_WARN, NULL, "Pos update failed %d\n", Stat);
-  }
+    if (Stat != LPH_POS_FIX_SUCCESS)
+    {
+        d_error(D_WARN, NULL, "Pos update failed %d\n", Stat);
+    }
 }
 
 /**
@@ -168,11 +168,10 @@ static void PosExt_Action (sigval_t SigVal)
  */
 void PosExt_DeInit(void)
 {
-  d_printf(D_DBG, NULL, "()\n");
+    d_printf(D_DBG, NULL, "()\n");
 
-  timer_delete(Id);
+    timer_delete(Id);
 }
-
 
 // Close the Doxygen group
 /**
