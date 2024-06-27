@@ -1,7 +1,8 @@
 import matplotlib.pyplot as plt
 
-def extract_px_values(log_file_path):
-    px_values = []
+# Recupere les info des logs
+def extract_values(log_file_path):
+    values = []
     with open(log_file_path, 'r') as file:
         for line in file:
             if "[AOC] Rx statistics" in line:
@@ -13,14 +14,14 @@ def extract_px_values(log_file_path):
                 # Split the "34:120" into two numbers
                 first_value, second_value = map(int, px_string.split('/'))
                 # Store the extracted values in the dictionary
-                px_values.append([timestamp,first_value,second_value])
-    return px_values
+                values.append([timestamp,first_value,second_value])
+    return values
 
-
-def extract_information(log_file_path, packets_size):
-    px_values_lists = extract_px_values(log_file_path)
-    last_message = max(px_values_lists, key=lambda x: x[2]) if px_values_lists else None
-    first_message = min(px_values_lists, key=lambda x: x[2]) if px_values_lists else None
+# Calcul le debit et le taux de taux d'erreur
+def calcul_information(log_file_path, packets_size):
+    values_lists = extract_values(log_file_path)
+    last_message = max(values_lists, key=lambda x: x[2]) if values_lists else None
+    first_message = min(values_lists, key=lambda x: x[2]) if values_lists else None
 
     #print(" First message = " + str(first_message))
     #print(" Last message = " + str(last_message))
@@ -37,52 +38,85 @@ def extract_information(log_file_path, packets_size):
 
     return total_time, debit, lost_rate
 
+# Affiche des infos pour debug
 def info_print(log_file_path, packets_size):
-    time, debit, rate= extract_information(log_file_path, packets_size)
+    time, debit, rate= calcul_information(log_file_path, packets_size)
     print(time)
     print(debit)
     print(rate)
 
-def extracts_all(path, n, packets_size):
+# Calcul les infos pour tous les intervales
+def extracts_all(path, intervale, packets_size):
     info_array = []
-    for i in range(n):
-        log_file_path = path + '/stderr'+ str(i)
+    for i in range(len(intervale)):
+        log_file_path = path + '/stderr'+ str(intervale[i])
         #info_print(log_file_path)
-        time, debit, rate= extract_information(log_file_path, packets_size)
-        info_array.append([time,debit,rate])
+        time, debit, rate= calcul_information(log_file_path, packets_size)
+        info_array.append([time,debit,rate*100])
     return info_array
 
-
-def create_plot(debit, intervale, color):
-
+# Lance la création du plot des logs choisis 
+def create_plot(intervale, packets_size, protocol, info):
+    if info == 1:
+        string = 'Débit (kb/s)'
+    else :
+        string = "Taux d'erreur"
     # Création du plot
+    plt.title(string + " en fonction de l'intervalles d'envoi avec des packets de "+ str(packets_size) + " en utilisant "+ protocol)
 
-    plt.plot(intervale, debit, marker='o', linestyle='-', color=color, linewidth=2, markersize=8)
+    data_droid3 = [sublist[info] for sublist in extracts_all('../stderr/droid3_'+str(packets_size)+'_'+protocol, intervale, packets_size)]
+    data_droid4 = [sublist[info] for sublist in extracts_all('../stderr/droid4_'+str(packets_size)+'_'+protocol, intervale, packets_size)]
 
+    afficher(data_droid3, intervale, 'blue', string)
+    afficher(data_droid4, intervale, 'red', string) 
+    
+# Affichage basique d'un plot 
+def afficher(data, intervale, color, string):
+    plt.plot(intervale, data, marker='o', linestyle='-', color=color, linewidth=2, markersize=8)
     # Ajout de titres et de labels
     plt.xlabel('Intervale (ms)')
-    plt.ylabel('Debit (kb/s)')
-
+    plt.ylabel(string)
     # Affichage du plot
     plt.tight_layout()
 
-debit_droid3_1048 = [sublist[1] for sublist in extracts_all('../stderr/droid3_1048', 7, 1048)]
-debit_droid4_1048 = [sublist[1] for sublist in extracts_all('../stderr/droid4_1048', 7, 1048)]
+# Fonction à modifier pour integrer de nouveaux fichiers stderr 
+def main():
+    # DEBIT 
+    plt.figure(figsize=(20, 10))
+    intervale_1048_dsrc = [50, 100, 200, 500, 1000]
+    plt.subplot(2, 2, 1)
+    create_plot(intervale_1048_dsrc, 1048, 'dsrc',1)
 
-intervale = [1, 10, 50, 100, 200, 500, 1000]
-plt.figure(figsize=(10, 6))
-create_plot(debit_droid3_1048,intervale, 'red')
-create_plot(debit_droid4_1048,intervale, 'blue')
+    intervale_1048_cv2x = [1, 10, 50, 100, 200, 500, 1000]
+    plt.subplot(2, 2, 2)
+    create_plot(intervale_1048_cv2x, 1048, 'cv2x',1)
+
+    plt.subplot(2, 2, 3)
+    intervale_2096_4192 = [1, 10, 50, 200, 500, 1000]
+    create_plot(intervale_2096_4192, 2096, 'cv2x',1)
+
+    plt.subplot(2, 2, 4)
+    create_plot(intervale_2096_4192, 4192, 'cv2x',1)
 
 
-debit_droid3_2096 = [sublist[1] for sublist in extracts_all('../stderr/droid3_2096', 6, 2096)]
-debit_droid4_2096 = [sublist[1] for sublist in extracts_all('../stderr/droid4_2096', 6, 2096)]
+    # TAUX D'ERROR
+    plt.figure(figsize=(20, 10))
+    intervale_1048_dsrc = [50, 100, 200, 500, 1000]
+    plt.subplot(2, 2, 1)
+    create_plot(intervale_1048_dsrc, 1048, 'dsrc',2)
 
-intervale = [1, 10, 50, 200, 500, 1000]
-plt.figure(figsize=(10, 6))
-create_plot(debit_droid3_2096,intervale, 'red')
-plt.title("Comparaison des débits en fonction de l'intervalles d'envoi avec des packets de 1048")
-create_plot(debit_droid4_2096,intervale, 'blue')
-plt.title("Comparaison des débits en fonction de l'intervalles d'envoi avec des packets de 2096")
+    intervale_1048_cv2x = [1, 10, 50, 100, 200, 500, 1000]
+    plt.subplot(2, 2, 2)
+    create_plot(intervale_1048_cv2x, 1048, 'cv2x',2)
 
-plt.show()
+    plt.subplot(2, 2, 3)
+    intervale_2096_4192 = [1, 10, 50, 200, 500, 1000]
+    create_plot(intervale_2096_4192, 2096, 'cv2x',2)
+
+    plt.subplot(2, 2, 4)
+    create_plot(intervale_2096_4192, 4192, 'cv2x',2)
+    plt.show()
+
+
+if __name__ == "__main__":
+    main()
