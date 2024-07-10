@@ -72,7 +72,8 @@ def create_plot(intervale, packets_size, protocol, info):
     
 # Affichage basique d'un plot 
 def afficher(data, intervale, color, string):
-    plt.plot(intervale, data, marker='o', linestyle='-', color=color, linewidth=2, markersize=8)
+    #plt.plot(intervale, data, marker='o', linestyle='-', color=color, linewidth=2, markersize=8)
+    plt.bar(intervale, data)
     # Ajout de titres et de labels
     plt.xlabel('Intervale (ms)')
     plt.ylabel(string)
