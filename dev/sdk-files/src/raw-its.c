@@ -52,7 +52,7 @@
 //------------------------------------------------------------------------------
 // AOC definitions
 //------------------------------------------------------------------------------
-#define AOC_MAX_RAW_DATA_SIZE 4992
+#define AOC_MAX_RAW_DATA_SIZE 4993
 
 //------------------------------------------------------------------------------
 // Local Type definitions
@@ -416,16 +416,11 @@ static void RAWIts_ThreadProc(void *pArg)
         goto Error;
     }
 
-    // AOC: Hello, World!
-    int hello_count = 0;
-    char hello_data[AOC_MAX_RAW_DATA_SIZE];
+    int buffer_count = 0;
     size_t buffer_length = 0;
     // Thread loop
     while ((pRAW->ThreadState & RAWITS_THREAD_STATE_STOP) == 0)
     {
-        // AOC: Hello, World!
-        snprintf(hello_data, AOC_MAX_RAW_DATA_SIZE, "Hello, World! (%d)", hello_count);
-        hello_count++;
 
         int sockfd, send_sockfd;
         struct sockaddr_in server_addr, client_addr;
@@ -436,6 +431,7 @@ static void RAWIts_ThreadProc(void *pArg)
         if ((sockfd = socket(AF_INET, SOCK_DGRAM, 0)) < 0) {
             perror("Socket creation failed");
             exit(EXIT_FAILURE);
+        }
 
         // Configurer l'adresse du serveur
         memset(&server_addr, 0, sizeof(server_addr));
@@ -454,7 +450,7 @@ static void RAWIts_ThreadProc(void *pArg)
 
         buffer[n] = '\0'; // Null-terminate the received data
     
-
+        buffer_count++;
         buffer_length = strlen(buffer_length) + 1;
         if (buffer_length <= AOC_MAX_RAW_DATA_SIZE)
         {
@@ -484,7 +480,7 @@ static void RAWIts_ThreadProc(void *pArg)
 Error:
     // exit thread
 
-    d_printf(D_DEBUG, 0, "[AOC] RAWITS thread proc stopped after %d messages\n", hello_count);
+    d_printf(D_DEBUG, 0, "[AOC] RAWITS thread proc stopped after %d messages\n", buffer_count);
     (void)pthread_exit(NULL);
 }
 
