@@ -432,15 +432,15 @@ static void RAWIts_ThreadProc(void *pArg)
             perror("Socket creation failed");
             exit(EXIT_FAILURE);
         }
-
         // Configurer l'adresse du serveur
         memset(&server_addr, 0, sizeof(server_addr));
         server_addr.sin_family = AF_INET;
         server_addr.sin_addr.s_addr = htonl(INADDR_ANY);
         server_addr.sin_port = htons(PORT);
 
-
+        printf("Waiting for messages..\n")
         ssize_t n = recvfrom(sockfd, buffer, BUFFER_SIZE, 0, (struct sockaddr *)&client_addr, &addr_len);
+        printf("Message received processing..\n")
         if (n < 0) {
             perror("Receive failed");
             close(sockfd);
