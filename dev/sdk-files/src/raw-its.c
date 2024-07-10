@@ -37,17 +37,22 @@
 #include <stdio.h>
 #include <string.h>
 #include <errno.h>
+#include <arpa/inet.h>
+
 
 //------------------------------------------------------------------------------
 // Local Macros & Constants
 //------------------------------------------------------------------------------
 
 #define D_LEVEL ExampleETSI_ExampleETSI_Raw_DebugLevel
+#define BUFFER_SIZE 4992
+#define DEST_IP "127.0.0.1"
+#define PORT 9000
 
 //------------------------------------------------------------------------------
 // AOC definitions
 //------------------------------------------------------------------------------
-#define AOC_MAX_RAW_DATA_SIZE 18720
+#define AOC_MAX_RAW_DATA_SIZE 4992
 
 //------------------------------------------------------------------------------
 // Local Type definitions
@@ -414,7 +419,7 @@ static void RAWIts_ThreadProc(void *pArg)
     // AOC: Hello, World!
     int hello_count = 0;
     char hello_data[AOC_MAX_RAW_DATA_SIZE];
-    size_t hello_length = 0;
+    size_t buffer_length = 0;
     // Thread loop
     while ((pRAW->ThreadState & RAWITS_THREAD_STATE_STOP) == 0)
     {
@@ -422,11 +427,39 @@ static void RAWIts_ThreadProc(void *pArg)
         snprintf(hello_data, AOC_MAX_RAW_DATA_SIZE, "Hello, World! (%d)", hello_count);
         hello_count++;
 
-        hello_length = strlen(hello_data) + 1;
-        if (hello_length <= AOC_MAX_RAW_DATA_SIZE)
+        int sockfd, send_sockfd;
+        struct sockaddr_in server_addr, client_addr;
+        unsigned char buffer[BUFFER_SIZE];
+        socklen_t addr_len = sizeof(client_addr);
+
+        // Créer la socket pour recevoir les données
+        if ((sockfd = socket(AF_INET, SOCK_DGRAM, 0)) < 0) {
+            perror("Socket creation failed");
+            exit(EXIT_FAILURE);
+
+        // Configurer l'adresse du serveur
+        memset(&server_addr, 0, sizeof(server_addr));
+        server_addr.sin_family = AF_INET;
+        server_addr.sin_addr.s_addr = htonl(INADDR_ANY);
+        server_addr.sin_port = htons(PORT);
+
+
+        ssize_t n = recvfrom(sockfd, buffer, BUFFER_SIZE, 0, (struct sockaddr *)&client_addr, &addr_len);
+        if (n < 0) {
+            perror("Receive failed");
+            close(sockfd);
+            close(send_sockfd);
+            exit(EXIT_FAILURE);
+        }
+
+        buffer[n] = '\0'; // Null-terminate the received data
+    
+
+        buffer_length = strlen(buffer_length) + 1;
+        if (buffer_length <= AOC_MAX_RAW_DATA_SIZE)
         {
-            memcpy(pRAW->Params.Data, hello_data, hello_length);
-            pRAW->Params.DataLength = hello_length;
+            memcpy(pRAW->Params.Data, buffer, buffer_length);
+            pRAW->Params.DataLength = buffer_length;
             // --------------------------------
             // sleeping delay
             Util_Nap(pRAW->Params.TxInterval, &Time);
@@ -436,7 +469,7 @@ static void RAWIts_ThreadProc(void *pArg)
         }
         else
         {
-            d_error(D_ERR, 0, "[AOC] Hello data too long. (%zu)\n", hello_length);
+            d_error(D_ERR, 0, "[AOC] Buffer data too long. (%zu)\n", buffer_length);
             break;
         }
     }
@@ -461,6 +494,8 @@ Error:
  * @param pParams Pointer to parameters of control and data
  *
  */
+
+
 static int RAWIts_ReqSend(tETSIMSGHandleCode Handle,
                           tRAWItsParams *pParams)
 {
@@ -634,6 +669,7 @@ static int RAWIts_ReqSend(tETSIMSGHandleCode Handle,
 Exit:
     return Ret;
 }
+
 
 /**
  * @brief EXT Callback

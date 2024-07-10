@@ -26,6 +26,6 @@ DummyMsg ::= SEQUENCE {
 
 SequenceNumber ::= INTEGER (0..65535)
 
-SomeData ::= OCTET STRING (SIZE(1..18720))
+SomeData ::= OCTET STRING (SIZE(1..4192))
 
 END
