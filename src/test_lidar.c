@@ -77,9 +77,6 @@ void read_datablock (unsigned char* packet){
 void send_datablock( unsigned char* packet ) {
 
 
-
-
-
 }
 
 /**
@@ -149,8 +146,8 @@ int main() {
         buffer[n] = '\0'; // Null-terminate the received data
 
         // Traitement des données reçues
-        read_header(buffer);
-        read_datablock(buffer);
+        //read_header(buffer);
+        //read_datablock(buffer);
 
         // Envoyer le buffer au destinataire
         if (sendto(send_sockfd, buffer, n, 0, (struct sockaddr *)&dest_addr, sizeof(dest_addr)) < 0) {
