@@ -11,6 +11,7 @@
 #define DEST_PORT 9000
 
 int main() {
+
     int sequence_number = 0;
     int sockfd, send_sockfd;
     struct sockaddr_in server_addr, client_addr, dest_addr;
@@ -51,6 +52,7 @@ int main() {
 
     // Boucle pour recevoir et envoyer les paquets
     while (sequence_number<10000) {
+        
         ssize_t n = recvfrom(sockfd, buffer, BUFFER_SIZE, 0, (struct sockaddr *)&client_addr, &addr_len);
         if (n < 0) {
             perror("Receive failed");
