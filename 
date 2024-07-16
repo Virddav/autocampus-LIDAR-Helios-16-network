@@ -1,0 +1,187 @@
+[33mcommit ea0d68916005e459ec442bb0b51dc3c5f0ff7b47[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Messaouda Haddad <haddad.kola@gmail.com>
+Date:   Tue Jun 25 12:06:36 2024 +0200
+
+    New version
+
+[33mcommit daa9abedac2f50f71ed10c619c50565c7e5e75b3[m
+Author: Haddad <haddad.mkola@gmail.com>
+Date:   Wed Jun 12 11:52:35 2024 +0000
+
+    Ajout du SDK
+
+[33mcommit 705d595441c178f9bec07354f655906014d9ac8b[m
+Merge: 40660ef 04194a4
+Author: virddav <dbrillaud@outlook.com>
+Date:   Tue Jun 11 15:58:25 2024 +0200
+
+    Ajout du gitignore pour éviter d'ajouter les éxécutables
+
+[33mcommit 40660efc3ae844edf919e2cf095c31870caca56f[m
+Author: virddav <dbrillaud@outlook.com>
+Date:   Tue Jun 11 15:52:57 2024 +0200
+
+    Ajout du gitignore pour éviter d'ajouter les éxécutables
+
+[33mcommit 04194a4604b093ea18b6522b4eadaeed4c83b6cb[m
+Author: habas achraf <habas.achraf@gmail.com>
+Date:   Wed Jun 5 10:18:47 2024 +0200
+
+    fix repo
+
+[33mcommit adcafcc9a2848f0a9a6e8be57a428fc08e55a9ed[m
+Merge: fb6b5e6 e65b31e
+Author: virddav <dbrillaud@outlook.com>
+Date:   Tue Jun 4 11:00:03 2024 +0200
+
+    Merge remote-tracking branch 'refs/remotes/origin/main'
+
+[33mcommit fb6b5e6878e59822c438931be5f2bb357493d6d3[m
+Author: virddav <dbrillaud@outlook.com>
+Date:   Tue Jun 4 10:55:24 2024 +0200
+
+    Ajout programme permettant de limiter les données envoyées en fonction de la qualité du réseau
+
+[33mcommit e65b31eb1a557209b030d909738b83c9d1145886[m
+Author: Dylan Brillaud <145108490+Virddav@users.noreply.github.com>
+Date:   Mon Jun 3 11:31:48 2024 +0200
+
+    Delete redundant file
+
+[33mcommit b365d4deb6e893c457b61750b501fa9f0875239e[m
+Author: Dylan Brillaud <145108490+Virddav@users.noreply.github.com>
+Date:   Mon Jun 3 11:31:26 2024 +0200
+
+    Delete redundant file
+
+[33mcommit dc24ff7392ed0826e2f27fa294a8f49137ddb34b[m
+Author: Dylan Brillaud <145108490+Virddav@users.noreply.github.com>
+Date:   Mon Jun 3 11:31:04 2024 +0200
+
+    Delete redundant file
+
+[33mcommit 91fb3e45b960cdb6977ae651af25f59960eb1827[m
+Author: Dylan Brillaud <145108490+Virddav@users.noreply.github.com>
+Date:   Mon Jun 3 11:24:15 2024 +0200
+
+    Error correction and rename test2.c to read_data-block_temp.c
+
+[33mcommit 0b895f40846c49cd47785dca341b9269d0c23c12[m
+Author: Dylan Brillaud <145108490+Virddav@users.noreply.github.com>
+Date:   Mon Jun 3 11:18:43 2024 +0200
+
+    Delete code/print_hex.txt
+    
+    delete redundant files
+
+[33mcommit 4b77cd33712f06c501bfda4f7e13cc16c04ccd08[m
+Author: virddav <dbrillaud@outlook.com>
+Date:   Thu May 30 15:27:55 2024 +0200
+
+    Remove test file
+
+[33mcommit 9385dbe10e3eb77bbfa180607a9b57627cb43752[m
+Author: virddav <dbrillaud@outlook.com>
+Date:   Thu May 30 15:18:42 2024 +0200
+
+    Test du webhook discord
+
+[33mcommit f5722b5e80b11aec7c84e755bb50f40476ab64ec[m
+Author: virddav <dbrillaud@outlook.com>
+Date:   Thu May 30 11:31:39 2024 +0200
+
+    Fonction de separation du datablock
+
+[33mcommit 1c1f9009c28c41fe6bc45450e9a28a5cc757249b[m
+Author: HADDAD_MK <104072333+haddad-mk@users.noreply.github.com>
+Date:   Tue May 28 11:45:29 2024 +0200
+
+    Update hexa_dec
+
+[33mcommit 1267b75a6fc95fd0c70de6fdb947bad74a1abdbe[m
+Author: HADDAD_MK <104072333+haddad-mk@users.noreply.github.com>
+Date:   Tue May 28 11:44:34 2024 +0200
+
+    Update hexa_dec
+
+[33mcommit a1519b0638729691b33cf97d8de4bf94c2b7d029[m
+Author: HADDAD_MK <104072333+haddad-mk@users.noreply.github.com>
+Date:   Tue May 28 11:33:10 2024 +0200
+
+    Update hexa_dec
+
+[33mcommit d3763b441ac3d403d0ed7e3f263f36a7528ac62f[m
+Author: HADDAD_MK <104072333+haddad-mk@users.noreply.github.com>
+Date:   Tue May 28 11:25:57 2024 +0200
+
+    Update hexa_dec
+
+[33mcommit de5e577d79ad584db5c0e5cae407d445bf25417c[m
+Author: HADDAD_MK <104072333+haddad-mk@users.noreply.github.com>
+Date:   Tue May 28 11:23:37 2024 +0200
+
+    Update hexa_dec
+
+[33mcommit c7e202c6e9059f83982c919dc68f2452ebb1485c[m
+Author: Dylan Brillaud <145108490+Virddav@users.noreply.github.com>
+Date:   Fri May 24 16:09:44 2024 +0200
+
+    ajout de connexion udp, packet handling
+
+[33mcommit d74d0c29896a8631368f9213b6c25e762615da7e[m
+Author: HADDAD_MK <104072333+haddad-mk@users.noreply.github.com>
+Date:   Fri May 24 15:36:23 2024 +0200
+
+    Create hexa_dec
+
+[33mcommit 820dac094f565989de660bd47d4051321a842fb3[m
+Author: HADDAD_MK <104072333+haddad-mk@users.noreply.github.com>
+Date:   Fri May 24 15:11:56 2024 +0200
+
+    Create ignorer_bourage
+
+[33mcommit eb5ca75a6a965e1654d1d292d999aa806cce0686[m
+Author: Dylan Brillaud <145108490+Virddav@users.noreply.github.com>
+Date:   Fri May 24 14:47:44 2024 +0200
+
+    Update print_hex.txt
+
+[33mcommit 78d91535dd6921946a69cd788088210439dd0117[m
+Author: HADDAD_MK <104072333+haddad-mk@users.noreply.github.com>
+Date:   Fri May 24 14:14:50 2024 +0200
+
+    Add files via upload
+
+[33mcommit 8ed3c35d00b52a57440e6e1553cd0cc5f4b2e9e9[m
+Author: Dylan Brillaud <145108490+Virddav@users.noreply.github.com>
+Date:   Wed May 22 14:43:44 2024 +0200
+
+    Update test_lidar.c
+    
+    update
+
+[33mcommit da89e18315bc42ebd850ce7fdae07d7e7c3ec770[m
+Author: Dylan Brillaud <145108490+Virddav@users.noreply.github.com>
+Date:   Wed May 22 14:03:33 2024 +0200
+
+    Update test_lidar.c
+
+[33mcommit 06015c6656359793c0056a0fa4c65e6bb9e060f9[m
+Author: Dylan Brillaud <145108490+Virddav@users.noreply.github.com>
+Date:   Wed May 22 13:39:38 2024 +0200
+
+    Update test_lidar.c
+    
+    basic starter code to test out socket sonnection with te LIDAR and our pc
+
+[33mcommit c20d2c7215553644f805050c4f913a955f6f2b62[m
+Author: Dylan Brillaud <145108490+Virddav@users.noreply.github.com>
+Date:   Wed May 22 13:34:18 2024 +0200
+
+    Create test_lidar.c
+
+[33mcommit 693f7198bf291d51e9641c6ee91c0e621b358bb9[m
+Author: Dylan Brillaud <145108490+Virddav@users.noreply.github.com>
+Date:   Wed May 22 11:59:48 2024 +0200
+
+    Initial commit
