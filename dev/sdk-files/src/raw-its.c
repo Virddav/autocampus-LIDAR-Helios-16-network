@@ -38,10 +38,6 @@
 #include <string.h>
 #include <errno.h>
 
-
-#include <unistd.h>
-#include <arpa/inet.h>
-
 //------------------------------------------------------------------------------
 // Local Macros & Constants
 //------------------------------------------------------------------------------
@@ -52,6 +48,9 @@
 // AOC definitions
 //------------------------------------------------------------------------------
 #define AOC_MAX_RAW_DATA_SIZE 1048
+#define BUFFER_SIZE 4992
+#define DEST_PORT 9123
+#define INTERVAL 10 // En millisecondes
 
 //------------------------------------------------------------------------------
 // Local Type definitions
@@ -416,21 +415,10 @@ static void RAWIts_ThreadProc(void *pArg)
     }
 
     // AOC: Hello, World!
-    /*int hello_count = 0;
-    char hello_data[AOC_MAX_RAW_DATA_SIZE];
-    size_t hello_length = 0;*/
-    // Thread loop
-
-    //lidar_data_reception 
-
-     printf("wtf");
-    int sequence_number = 0;
-    //int buffer_count = 0;
-    //size_t buffer_length = 0;
-    // Thread loop
+    size_t buffer_length = 0;
     int sockfd;
     struct sockaddr_in server_addr, client_addr;
-    unsigned char buffer[AOC_MAX_RAW_DATA_SIZE];
+    unsigned char buffer[BUFFER_SIZE];
     socklen_t addr_len = sizeof(client_addr);
 
     // Créer la socket pour recevoir les données
@@ -444,60 +432,26 @@ static void RAWIts_ThreadProc(void *pArg)
 
     server_addr.sin_family = AF_INET;
     server_addr.sin_addr.s_addr = INADDR_ANY;
-    server_addr.sin_port = htons(9000);
+    server_addr.sin_port = htons(DEST_PORT);
 
     if (bind(sockfd, (const struct sockaddr *)&server_addr, sizeof(server_addr)) < 0) {
         perror("bind failed");
         close(sockfd);
         exit(EXIT_FAILURE);
     }
-
-
-
+    // Thread loop
     while ((pRAW->ThreadState & RAWITS_THREAD_STATE_STOP) == 0)
     {
-
-        //lidar_data_reception
-
-         printf("Waiting ..\n");
-        ssize_t n = recvfrom(sockfd, buffer, AOC_MAX_RAW_DATA_SIZE, 0, (struct sockaddr *)&client_addr, &addr_len);
+        // AOC: Hello, World!
+        ssize_t n = recvfrom(sockfd, buffer, BUFFER_SIZE, 0, (struct sockaddr *)&client_addr, &addr_len);
         if (n < 0) {
             perror("Receive failed");
             close(sockfd);
-            //close(send_sockfd);
             exit(EXIT_FAILURE);
         }
-        sequence_number ++;
         buffer[n] = '\0';
-        printf("Message number %d received\n", sequence_number);
 
-
-
-
-
-        // AOC: Hello, World!
-        /**snprintf(hello_data, AOC_MAX_RAW_DATA_SIZE, "Hello, World! (%d)", hello_count);
-        hello_count++;
-
-        hello_length = strlen(hello_data) + 1;
-        if (hello_length <= AOC_MAX_RAW_DATA_SIZE)
-        {
-            memcpy(pRAW->Params.Data, hello_data, hello_length);
-            pRAW->Params.DataLength = hello_length;
-            // --------------------------------
-            // sleeping delay
-            Util_Nap(pRAW->Params.TxInterval, &Time);
-
-            // Send something
-            RAWIts_ReqSend(RAWHandle, &pRAW->Params);
-        }
-        else
-        {
-            d_error(D_ERR, 0, "[AOC] Hello data too long. (%zu)\n", hello_length);
-            break;
-        }**/
-
-       if (n <= AOC_MAX_RAW_DATA_SIZE)
+        if (n <= AOC_MAX_RAW_DATA_SIZE)
         {
             memcpy(pRAW->Params.Data, buffer, n);
             pRAW->Params.DataLength = n;
@@ -510,11 +464,9 @@ static void RAWIts_ThreadProc(void *pArg)
         }
         else
         {
-            d_error(D_ERR, 0, "[AOC] Hello data too long. (%zu)\n", n);
+            d_error(D_ERR, 0, "[AOC] Hello data too long. (%zu)\n", hello_length);
             break;
         }
-
-
     }
 
 
@@ -527,7 +479,7 @@ static void RAWIts_ThreadProc(void *pArg)
 Error:
     // exit thread
 
-    d_printf(D_DEBUG, 0, "[AOC] RAWITS thread proc stopped after %d messages\n", sequence_number);
+    d_printf(D_DEBUG, 0, "[AOC] RAWITS thread proc stopped after %d messages\n", hello_count);
     (void)pthread_exit(NULL);
 }
 
