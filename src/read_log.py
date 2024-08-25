@@ -66,7 +66,7 @@ def create_plot(intervale, packets_size, protocol, info, color):
 
     plt.plot(intervale, data, marker='o', linestyle='-', color=color, label=str(packets_size), linewidth=2, markersize=8)
 
-def create_bar(intervale, packets_size, protocol, info, color):
+def create_bar(intervale, packets_size, protocol, info, color, bar_number):
     data_droid3 = [sublist[info] for sublist in extracts_all('../stderr/droid3_'+str(packets_size)+'_'+protocol, intervale, packets_size)]
     data_droid4 = [sublist[info] for sublist in extracts_all('../stderr/droid4_'+str(packets_size)+'_'+protocol, intervale, packets_size)]
     data =[]
@@ -74,7 +74,10 @@ def create_bar(intervale, packets_size, protocol, info, color):
     for a, b in zip(data_droid3,data_droid4):
         data.append((a+b)/2)
 
-    plt.bar(intervale, data, color=color, label=str(packets_size), width=3, edgecolor='black')
+    bar_size = 3
+    intervale_espaced = [x + bar_size*bar_number for x in intervale]
+
+    plt.bar(intervale_espaced, data, color=color, label=str(packets_size), width=bar_size, edgecolor='black')
 
 # Fonction à modifier pour integrer de nouveaux fichiers stderr 
 def main():
@@ -130,9 +133,6 @@ def main():
     plt.legend()
     
     # --------------- BAR VERSION ---------------
-    bar_size = 3
-    intervale0 = [x + bar_size for x in intervale0]
-    intervale1 = [x + bar_size*2 for x in intervale0]
 
     # DEBIT 
     plt.figure(figsize=(20, 10))
@@ -141,9 +141,9 @@ def main():
     plt.ylabel('Débit (kb/s)')
     plt.tight_layout()
 
-    create_bar(intervale, 1048, 'cv2x',1, 'red')
-    create_bar(intervale0, 2096, 'cv2x',1, 'green')
-    create_bar(intervale1, 4192, 'cv2x',1, 'blue')
+    create_bar(intervale, 1048, 'cv2x',1, 'red', 0)
+    create_bar(intervale, 2096, 'cv2x',1, 'green', 1)
+    create_bar(intervale, 4192, 'cv2x',1, 'blue', 2)
     plt.legend()
 
     # TAUX D'ERROR
@@ -153,9 +153,9 @@ def main():
     plt.ylabel("Taux d'erreur")
     plt.tight_layout()
 
-    create_bar(intervale, 1048, 'cv2x',2, 'red')
-    create_bar(intervale0, 2096, 'cv2x',2, 'green')
-    create_bar(intervale1, 4192, 'cv2x',2, 'blue')
+    create_bar(intervale, 1048, 'cv2x',2, 'red', 0)
+    create_bar(intervale, 2096, 'cv2x',2, 'green', 1)
+    create_bar(intervale, 4192, 'cv2x',2, 'blue', 2)
     plt.legend()
 
     # --------------- DROID DISTANT ---------------
@@ -198,7 +198,7 @@ def main():
     data = [sublist[1] for sublist in extracts_all('../stderr/droid_moving_obu', [10,100], 4192)]
     plt.bar(intervale0, data, color='blue', label="OBU", width=3, edgecolor='black')
     data = [sublist[1] for sublist in extracts_all('../stderr/droid_moving_rsu', [10,100], 4192)]
-    plt.bar(intervale1, data, color='blue', label="RSU", width=3, edgecolor='black')
+    plt.bar(intervale1, data, color='red', label="RSU", width=3, edgecolor='black')
     plt.legend()
 
     # TAUX D'ERROR
@@ -216,7 +216,7 @@ def main():
 
     # --------------- OPTIMISATION DE L'INTERVALE ---------------
 
-    bar_size = 3
+    bar_size = 0.35
     intervale0 = [5,8,10]
     intervale1 = [x + bar_size for x in intervale0]
 
@@ -228,9 +228,9 @@ def main():
     plt.tight_layout()
 
     data = [sublist[1] for sublist in extracts_all('../stderr/opti/OBU3', [5,8,10], 4192)]
-    plt.bar(intervale0, data, color='red', label="OBU3", width=3, edgecolor='black')
+    plt.bar(intervale0, data, color='red', label="OBU3", width=bar_size, edgecolor='black')
     data = [sublist[1] for sublist in extracts_all('../stderr/opti/OBU4', [5,8,10], 4192)]
-    plt.bar(intervale1, data, color='blue', label="OBU4", width=3, edgecolor='black')
+    plt.bar(intervale1, data, color='blue', label="OBU4", width=bar_size, edgecolor='black')
     plt.legend()
 
     # TAUX D'ERROR
@@ -241,9 +241,9 @@ def main():
     plt.tight_layout()
 
     data = [sublist[2] for sublist in extracts_all('../stderr/opti/OBU3', [5,8,10], 4192)]
-    plt.bar(intervale0, data, color='red', label="OBU3", width=3, edgecolor='black')
+    plt.bar(intervale0, data, color='red', label="OBU3", width=bar_size, edgecolor='black')
     data = [sublist[2] for sublist in extracts_all('../stderr/opti/OBU4', [5,8,10], 4192)]
-    plt.bar(intervale1, data, color='blue', label="OBU4", width=3, edgecolor='black')
+    plt.bar(intervale1, data, color='blue', label="OBU4", width=bar_size, edgecolor='black')
     plt.legend()
 
     # --------------- DROID MULTIPLES ---------------
@@ -251,7 +251,7 @@ def main():
     
     data_debit = [[0,0],[0,0],[0,0]]
     data_tx = [[0,0],[0,0],[0,0]]
-    time, data_debit[1][1], rate = calcul_information("../stderr/droid_multiple/stderr100_RSU", 4192)
+    time, data_debit[0][1], rate = calcul_information("../stderr/droid_multiple/stderr100_RSU", 4192)
     data_tx[0][0] = 1-(11701/(330+11512))
     time, data_debit[1][1], rate = calcul_information("../stderr/droid_multiple/stderr100_OBU4", 4192)
     data_tx[1][0] = 1-(10650/(52+10608))
@@ -265,10 +265,10 @@ def main():
     time, data_debit[2][0], rate = calcul_information("../stderr/droid_multiple/stderr10_OBU3", 4192)
     data_tx[2][1] = 1-(18120/(3575+14566+1000))
 
-    bar_size = 3
+    bar_size = 1
     intervale0 = [10,100]
     intervale1 = [x + bar_size for x in intervale0]
-    intervale2 = [x + 2*bar_size for x in intervale0]
+    intervale2 = [x - bar_size for x in intervale0]
 
     # DEBIT 
     plt.figure(figsize=(20, 10))
@@ -277,9 +277,9 @@ def main():
     plt.ylabel('Débit (kb/s)')
     plt.tight_layout()
 
-    plt.bar(intervale0, data_debit[0], color='blue', label="RSU", width=3, edgecolor='black')
-    plt.bar(intervale1, data_debit[1], color='red', label="OBU4", width=3, edgecolor='black')
-    plt.bar(intervale2, data_debit[2], color='green', label="OBU3", width=3, edgecolor='black')
+    plt.bar(intervale0, data_debit[1], color='blue', label="RSU", width=bar_size, edgecolor='black')
+    plt.bar(intervale1, data_debit[1], color='red', label="OBU4", width=bar_size, edgecolor='black')
+    plt.bar(intervale2, data_debit[2], color='green', label="OBU3", width=bar_size, edgecolor='black')
 
     plt.legend()
 
@@ -290,9 +290,9 @@ def main():
     plt.ylabel("Taux d'erreur")
     plt.tight_layout()
 
-    plt.bar(intervale0, data_tx[0], color='blue', label="RSU", width=3, edgecolor='black')
-    plt.bar(intervale1, data_tx[1], color='red', label="OBU4", width=3, edgecolor='black')
-    plt.bar(intervale2, data_tx[2], color='green', label="OBU3", width=3, edgecolor='black')
+    plt.bar(intervale0, data_tx[0], color='blue', label="RSU", width=bar_size, edgecolor='black')
+    plt.bar(intervale1, data_tx[1], color='red', label="OBU4", width=bar_size, edgecolor='black')
+    plt.bar(intervale2, data_tx[2], color='green', label="OBU3", width=bar_size, edgecolor='black')
 
     plt.legend()
     
