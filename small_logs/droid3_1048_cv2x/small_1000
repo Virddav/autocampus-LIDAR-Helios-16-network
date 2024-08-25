@@ -1,0 +1,1495 @@
+[06-21T13:17:25.288499Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:25.443607Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 11992
+[06-21T13:17:25.444091Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:25.444198Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:25.461218Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 0, MSG: Hello, World! (0)
+[06-21T13:17:25.461243Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)    1 / 1 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:25.789482Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(1/1) (Seq = 1).
+[06-21T13:17:25.944994Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:26.428965Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 12992
+[06-21T13:17:26.429334Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:26.429405Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:26.449192Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 1, MSG: Hello, World! (1)
+[06-21T13:17:26.449218Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)    2 / 2 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:26.789241Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(2/2) (Seq = 2).
+[06-21T13:17:26.930804Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:27.431056Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:27.455186Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 2, MSG: Hello, World! (2)
+[06-21T13:17:27.455267Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)    3 / 3 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:27.458802Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 13992
+[06-21T13:17:27.459162Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:27.459200Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:27.789224Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(3/3) (Seq = 3).
+[06-21T13:17:27.960222Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:28.446560Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 14992
+[06-21T13:17:28.447088Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:28.447170Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:28.451175Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 3, MSG: Hello, World! (3)
+[06-21T13:17:28.451196Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)    4 / 4 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:28.789243Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(4/4) (Seq = 4).
+[06-21T13:17:28.947924Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:29.440283Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 15992
+[06-21T13:17:29.440643Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:29.440681Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:29.451700Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 4, MSG: Hello, World! (4)
+[06-21T13:17:29.451722Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)    5 / 5 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:29.789284Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(5/5) (Seq = 5).
+[06-21T13:17:29.941707Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:30.441938Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:30.443452Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 16992
+[06-21T13:17:30.443719Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:30.443746Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:30.449202Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 5, MSG: Hello, World! (5)
+[06-21T13:17:30.449252Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)    6 / 6 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:30.789374Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(6/6) (Seq = 6).
+[06-21T13:17:30.944683Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:31.436850Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 17992
+[06-21T13:17:31.439934Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:31.439977Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:31.458307Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 6, MSG: Hello, World! (6)
+[06-21T13:17:31.458331Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)    7 / 7 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:31.789296Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(7/7) (Seq = 7).
+[06-21T13:17:31.940794Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:32.440992Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:32.443499Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 18992
+[06-21T13:17:32.444023Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:32.444120Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:32.453458Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 7, MSG: Hello, World! (7)
+[06-21T13:17:32.453505Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)    8 / 8 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:32.791642Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(8/8) (Seq = 8).
+[06-21T13:17:32.945179Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:33.439034Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 19992
+[06-21T13:17:33.439476Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:33.439574Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:33.459448Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 8, MSG: Hello, World! (8)
+[06-21T13:17:33.459480Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)    9 / 9 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:33.789319Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(9/9) (Seq = 9).
+[06-21T13:17:33.940673Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:34.438569Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 20992
+[06-21T13:17:34.439139Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:34.439175Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:34.450416Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 9, MSG: Hello, World! (9)
+[06-21T13:17:34.450442Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   10 / 10 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:34.789319Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(10/10) (Seq = 10).
+[06-21T13:17:34.940309Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:35.433085Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 21992
+[06-21T13:17:35.436128Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:35.436210Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:35.453814Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 10, MSG: Hello, World! (10)
+[06-21T13:17:35.453835Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   11 / 11 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:35.789707Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(11/11) (Seq = 11).
+[06-21T13:17:35.937016Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:36.433882Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 22992
+[06-21T13:17:36.434314Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:36.434351Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:36.451491Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 11, MSG: Hello, World! (11)
+[06-21T13:17:36.451512Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   12 / 12 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:36.789331Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(12/12) (Seq = 12).
+[06-21T13:17:36.935249Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:37.435450Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:37.437983Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 23992
+[06-21T13:17:37.438814Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:37.438846Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:37.460266Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 12, MSG: Hello, World! (12)
+[06-21T13:17:37.460297Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   13 / 13 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:37.789291Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(13/13) (Seq = 13).
+[06-21T13:17:37.939799Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:38.437382Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 24992
+[06-21T13:17:38.437755Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:38.437798Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:38.450593Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 13, MSG: Hello, World! (13)
+[06-21T13:17:38.450617Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   14 / 14 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:38.789269Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(14/14) (Seq = 14).
+[06-21T13:17:38.938819Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:39.431527Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 25992
+[06-21T13:17:39.432097Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:39.432196Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:39.450147Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 14, MSG: Hello, World! (14)
+[06-21T13:17:39.450173Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   15 / 15 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:39.789259Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(15/15) (Seq = 15).
+[06-21T13:17:39.933191Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:40.430109Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 26992
+[06-21T13:17:40.430429Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:40.430525Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:40.451375Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 15, MSG: Hello, World! (15)
+[06-21T13:17:40.451396Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   16 / 16 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:40.789349Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(16/16) (Seq = 16).
+[06-21T13:17:40.931365Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:41.431647Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:41.436840Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 27992
+[06-21T13:17:41.437439Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:41.437476Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:41.449963Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 16, MSG: Hello, World! (16)
+[06-21T13:17:41.449987Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   17 / 17 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:41.789271Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(17/17) (Seq = 17).
+[06-21T13:17:41.938674Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:42.435125Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 28992
+[06-21T13:17:42.435585Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:42.435864Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:42.460177Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 17, MSG: Hello, World! (17)
+[06-21T13:17:42.460199Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   18 / 18 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:42.789272Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(18/18) (Seq = 18).
+[06-21T13:17:42.936940Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:43.437212Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:43.442690Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 29992
+[06-21T13:17:43.442985Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:43.443015Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:43.449370Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 18, MSG: Hello, World! (18)
+[06-21T13:17:43.449393Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   19 / 19 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:43.789264Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(19/19) (Seq = 19).
+[06-21T13:17:43.943934Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:44.440963Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 30992
+[06-21T13:17:44.441418Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:44.441516Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:44.452090Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 19, MSG: Hello, World! (19)
+[06-21T13:17:44.452190Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   20 / 20 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:44.789318Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(20/20) (Seq = 20).
+[06-21T13:17:44.942648Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:45.439679Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 31992
+[06-21T13:17:45.440233Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:45.440296Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:45.448608Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 20, MSG: Hello, World! (20)
+[06-21T13:17:45.448629Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   21 / 21 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:45.789269Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(21/21) (Seq = 21).
+[06-21T13:17:45.941365Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:46.435787Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 32992
+[06-21T13:17:46.436534Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:46.436664Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:46.461542Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 21, MSG: Hello, World! (21)
+[06-21T13:17:46.461573Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   22 / 22 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:46.789234Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(22/22) (Seq = 22).
+[06-21T13:17:46.937821Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:47.435019Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 33992
+[06-21T13:17:47.435478Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:47.435621Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:47.455222Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 22, MSG: Hello, World! (22)
+[06-21T13:17:47.455253Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   23 / 23 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:47.789313Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(23/23) (Seq = 23).
+[06-21T13:17:47.936910Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:48.437265Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:48.441910Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 34992
+[06-21T13:17:48.442337Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:48.442365Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:48.453289Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 23, MSG: Hello, World! (23)
+[06-21T13:17:48.453314Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   24 / 24 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:48.789248Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(24/24) (Seq = 24).
+[06-21T13:17:48.943409Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:49.438518Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 35992
+[06-21T13:17:49.439088Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:49.439208Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:49.456201Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 24, MSG: Hello, World! (24)
+[06-21T13:17:49.456226Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   25 / 25 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:49.789277Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(25/25) (Seq = 25).
+[06-21T13:17:49.940487Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:50.435356Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 36992
+[06-21T13:17:50.436050Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:50.436087Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:50.450400Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 25, MSG: Hello, World! (25)
+[06-21T13:17:50.450422Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   26 / 26 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:50.789330Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(26/26) (Seq = 26).
+[06-21T13:17:50.936901Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:51.431110Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 37992
+[06-21T13:17:51.431572Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:51.431600Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:51.450343Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 26, MSG: Hello, World! (26)
+[06-21T13:17:51.450366Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   27 / 27 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:51.789317Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(27/27) (Seq = 27).
+[06-21T13:17:51.932478Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:52.432768Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:52.435330Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 38992
+[06-21T13:17:52.435646Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:52.435681Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:52.452684Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 27, MSG: Hello, World! (27)
+[06-21T13:17:52.452705Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   28 / 28 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:52.790048Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(28/28) (Seq = 28).
+[06-21T13:17:52.936817Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:53.437144Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 39992
+[06-21T13:17:53.437447Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:53.438000Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:53.438124Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:53.461073Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 28, MSG: Hello, World! (28)
+[06-21T13:17:53.461104Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   29 / 29 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:53.789250Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(29/29) (Seq = 29).
+[06-21T13:17:53.939518Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:54.439804Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:54.441209Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 40992
+[06-21T13:17:54.441504Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:54.441541Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:54.456155Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 29, MSG: Hello, World! (29)
+[06-21T13:17:54.456282Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   30 / 30 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:54.789482Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(30/30) (Seq = 30).
+[06-21T13:17:54.942827Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:55.431044Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 41992
+[06-21T13:17:55.431481Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:55.431523Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:55.453066Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 30, MSG: Hello, World! (30)
+[06-21T13:17:55.453087Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   31 / 31 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:55.789238Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(31/31) (Seq = 31).
+[06-21T13:17:55.932417Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:56.432838Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:56.437378Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 42992
+[06-21T13:17:56.442229Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:56.442250Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:56.452465Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 31, MSG: Hello, World! (31)
+[06-21T13:17:56.452486Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   32 / 32 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:56.789264Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(32/32) (Seq = 32).
+[06-21T13:17:56.943257Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:57.433111Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 43992
+[06-21T13:17:57.433473Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:57.433511Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:57.458262Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 32, MSG: Hello, World! (32)
+[06-21T13:17:57.458294Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   33 / 33 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:57.791514Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(33/33) (Seq = 33).
+[06-21T13:17:57.934515Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:58.435560Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:58.441458Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 44992
+[06-21T13:17:58.441657Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:58.441689Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:58.450232Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 33, MSG: Hello, World! (33)
+[06-21T13:17:58.450253Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   34 / 34 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:58.789276Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(34/34) (Seq = 34).
+[06-21T13:17:58.942575Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:17:59.432855Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 45992
+[06-21T13:17:59.433126Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:17:59.433156Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:17:59.453351Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 34, MSG: Hello, World! (34)
+[06-21T13:17:59.453373Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   35 / 35 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:17:59.789279Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(35/35) (Seq = 35).
+[06-21T13:17:59.933918Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:00.434197Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:00.441443Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 46992
+[06-21T13:18:00.441727Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:00.441780Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:00.456526Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 35, MSG: Hello, World! (35)
+[06-21T13:18:00.456619Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   36 / 36 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:00.789285Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(36/36) (Seq = 36).
+[06-21T13:18:00.942567Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:01.431048Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 47992
+[06-21T13:18:01.431503Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:01.431601Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:01.455659Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 36, MSG: Hello, World! (36)
+[06-21T13:18:01.455681Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   37 / 37 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:01.789883Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(37/37) (Seq = 37).
+[06-21T13:18:01.932698Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:02.432986Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:02.434448Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 48992
+[06-21T13:18:02.435104Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:02.435221Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:02.449188Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 37, MSG: Hello, World! (37)
+[06-21T13:18:02.449213Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   38 / 38 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:02.789343Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(38/38) (Seq = 38).
+[06-21T13:18:02.936487Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:03.432109Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 49992
+[06-21T13:18:03.432565Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:03.432661Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:03.453360Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 38, MSG: Hello, World! (38)
+[06-21T13:18:03.453381Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   39 / 39 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:03.789258Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(39/39) (Seq = 39).
+[06-21T13:18:03.933778Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:04.434065Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:04.439440Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 50992
+[06-21T13:18:04.440406Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:04.440534Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:04.449922Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 39, MSG: Hello, World! (39)
+[06-21T13:18:04.449943Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   40 / 40 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:04.789264Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(40/40) (Seq = 40).
+[06-21T13:18:04.941678Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:05.441551Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 51992
+[06-21T13:18:05.447375Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:05.447704Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:05.447725Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:05.451365Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 40, MSG: Hello, World! (40)
+[06-21T13:18:05.451386Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   41 / 41 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:05.789327Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(41/41) (Seq = 41).
+[06-21T13:18:05.948722Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:06.436257Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 52992
+[06-21T13:18:06.436769Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:06.436868Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:06.464271Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 41, MSG: Hello, World! (41)
+[06-21T13:18:06.464303Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   42 / 42 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:06.789242Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(42/42) (Seq = 42).
+[06-21T13:18:06.938134Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:07.435959Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 53992
+[06-21T13:18:07.436317Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:07.436385Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:07.454455Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 42, MSG: Hello, World! (42)
+[06-21T13:18:07.454477Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   43 / 43 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:07.789233Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(43/43) (Seq = 43).
+[06-21T13:18:07.937306Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:08.435153Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 54992
+[06-21T13:18:08.435745Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:08.435877Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:08.450688Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 43, MSG: Hello, World! (43)
+[06-21T13:18:08.450718Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   44 / 44 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:08.789329Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(44/44) (Seq = 44).
+[06-21T13:18:08.937005Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:09.432999Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 55992
+[06-21T13:18:09.433372Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:09.433411Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:09.456551Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 44, MSG: Hello, World! (44)
+[06-21T13:18:09.456620Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   45 / 45 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:09.789332Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(45/45) (Seq = 45).
+[06-21T13:18:09.934392Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:10.434658Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:10.437190Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 56992
+[06-21T13:18:10.443674Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:10.443697Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:10.451086Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 45, MSG: Hello, World! (45)
+[06-21T13:18:10.451107Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   46 / 46 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:10.789264Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(46/46) (Seq = 46).
+[06-21T13:18:10.944667Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:11.441689Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 57992
+[06-21T13:18:11.442307Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:11.442345Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:11.458193Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 46, MSG: Hello, World! (46)
+[06-21T13:18:11.458218Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   47 / 47 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:11.789299Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(47/47) (Seq = 47).
+[06-21T13:18:11.943627Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:12.432197Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 58992
+[06-21T13:18:12.432650Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:12.432750Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:12.448679Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 47, MSG: Hello, World! (47)
+[06-21T13:18:12.448709Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   48 / 48 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:12.789259Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(48/48) (Seq = 48).
+[06-21T13:18:12.933773Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:13.433285Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 59992
+[06-21T13:18:13.433737Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:13.433767Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:13.453134Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 48, MSG: Hello, World! (48)
+[06-21T13:18:13.453166Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   49 / 49 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:13.789248Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(49/49) (Seq = 49).
+[06-21T13:18:13.934870Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:14.435143Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:14.445200Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 60992
+[06-21T13:18:14.445646Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:14.445667Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:14.452692Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 49, MSG: Hello, World! (49)
+[06-21T13:18:14.452713Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   50 / 50 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:14.789264Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(50/50) (Seq = 50).
+[06-21T13:18:14.946381Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:15.431137Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 61992
+[06-21T13:18:15.431454Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:15.431522Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:15.453413Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 50, MSG: Hello, World! (50)
+[06-21T13:18:15.453441Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   51 / 51 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:15.789267Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(51/51) (Seq = 51).
+[06-21T13:18:15.932504Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:16.432715Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:16.443863Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 62992
+[06-21T13:18:16.444314Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:16.444465Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:16.454904Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 51, MSG: Hello, World! (51)
+[06-21T13:18:16.454928Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   52 / 52 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:16.789285Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(52/52) (Seq = 52).
+[06-21T13:18:16.945538Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:17.441417Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 63992
+[06-21T13:18:17.442279Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:17.442403Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:17.449818Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 52, MSG: Hello, World! (52)
+[06-21T13:18:17.449841Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   53 / 53 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:17.789251Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(53/53) (Seq = 53).
+[06-21T13:18:17.943335Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:18.433073Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 64992
+[06-21T13:18:18.433450Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:18.433490Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:18.448236Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 53, MSG: Hello, World! (53)
+[06-21T13:18:18.448262Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   54 / 54 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:18.790424Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(54/54) (Seq = 54).
+[06-21T13:18:18.934581Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:19.430083Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 456
+[06-21T13:18:19.430539Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:19.430640Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:19.456227Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 54, MSG: Hello, World! (54)
+[06-21T13:18:19.456258Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   55 / 55 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:19.789244Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(55/55) (Seq = 55).
+[06-21T13:18:19.931617Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:20.431190Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 1456
+[06-21T13:18:20.431595Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:20.431639Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:20.449364Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 55, MSG: Hello, World! (55)
+[06-21T13:18:20.449385Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   56 / 56 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:20.789248Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(56/56) (Seq = 56).
+[06-21T13:18:20.932479Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:21.432794Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:21.444886Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 2456
+[06-21T13:18:21.445218Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:21.445288Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:21.450447Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 56, MSG: Hello, World! (56)
+[06-21T13:18:21.450492Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   57 / 57 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:21.789295Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(57/57) (Seq = 57).
+[06-21T13:18:21.946217Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:22.434965Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 3456
+[06-21T13:18:22.435338Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:22.435378Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:22.457110Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 57, MSG: Hello, World! (57)
+[06-21T13:18:22.457139Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   58 / 58 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:22.789257Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(58/58) (Seq = 58).
+[06-21T13:18:22.936432Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:23.434099Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 4456
+[06-21T13:18:23.434552Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:23.434648Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:23.453150Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 58, MSG: Hello, World! (58)
+[06-21T13:18:23.453173Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   59 / 59 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:23.791786Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(59/59) (Seq = 59).
+[06-21T13:18:23.935756Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:24.436150Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:24.443600Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 5456
+[06-21T13:18:24.443910Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:24.443943Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:24.452531Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 59, MSG: Hello, World! (59)
+[06-21T13:18:24.452556Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   60 / 60 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:24.789331Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(60/60) (Seq = 60).
+[06-21T13:18:24.945188Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:25.430984Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 6456
+[06-21T13:18:25.431304Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:25.431371Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:25.449695Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 60, MSG: Hello, World! (60)
+[06-21T13:18:25.449716Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   61 / 61 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:25.789258Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(61/61) (Seq = 61).
+[06-21T13:18:25.932254Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:26.432468Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:26.438172Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 7456
+[06-21T13:18:26.438669Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:26.438710Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:26.457208Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 61, MSG: Hello, World! (61)
+[06-21T13:18:26.457240Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   62 / 62 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:26.789250Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(62/62) (Seq = 62).
+[06-21T13:18:26.939757Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:27.435122Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 8456
+[06-21T13:18:27.435453Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:27.435494Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:27.458131Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 62, MSG: Hello, World! (62)
+[06-21T13:18:27.458163Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   63 / 63 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:27.789786Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(63/63) (Seq = 63).
+[06-21T13:18:27.936676Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:28.437082Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:28.438130Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 9456
+[06-21T13:18:28.439049Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:28.439089Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:28.460305Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 63, MSG: Hello, World! (63)
+[06-21T13:18:28.460330Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   64 / 64 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:28.789244Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(64/64) (Seq = 64).
+[06-21T13:18:28.940161Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:29.440243Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 10456
+[06-21T13:18:29.440734Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:29.441459Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:29.441586Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:29.459370Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 64, MSG: Hello, World! (64)
+[06-21T13:18:29.459391Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   65 / 65 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:29.789450Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(65/65) (Seq = 65).
+[06-21T13:18:29.942798Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:30.434013Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 11456
+[06-21T13:18:30.434287Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:30.434314Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:30.452244Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 65, MSG: Hello, World! (65)
+[06-21T13:18:30.452265Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   66 / 66 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:30.789261Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(66/66) (Seq = 66).
+[06-21T13:18:30.935115Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:31.435331Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:31.438581Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 12456
+[06-21T13:18:31.439311Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:31.439444Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:31.455172Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 66, MSG: Hello, World! (66)
+[06-21T13:18:31.455194Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   67 / 67 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:31.789374Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(67/67) (Seq = 67).
+[06-21T13:18:31.941061Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:32.437541Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 13456
+[06-21T13:18:32.438148Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:32.438189Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:32.450506Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 67, MSG: Hello, World! (67)
+[06-21T13:18:32.450531Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   68 / 68 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:32.789255Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(68/68) (Seq = 68).
+[06-21T13:18:32.939493Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:33.436160Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 14456
+[06-21T13:18:33.436549Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:33.436588Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:33.450179Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 68, MSG: Hello, World! (68)
+[06-21T13:18:33.450204Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   69 / 69 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:33.789310Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(69/69) (Seq = 69).
+[06-21T13:18:33.937705Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:34.437138Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 15456
+[06-21T13:18:34.437565Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:34.437601Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:34.461165Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 69, MSG: Hello, World! (69)
+[06-21T13:18:34.461197Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   70 / 70 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:34.789272Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(70/70) (Seq = 70).
+[06-21T13:18:34.938581Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:35.430876Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 16456
+[06-21T13:18:35.431290Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:35.431317Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:35.450808Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 70, MSG: Hello, World! (70)
+[06-21T13:18:35.450830Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   71 / 71 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:35.789300Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(71/71) (Seq = 71).
+[06-21T13:18:35.932254Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:36.432474Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:36.438076Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 17456
+[06-21T13:18:36.438601Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:36.438704Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:36.451267Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 71, MSG: Hello, World! (71)
+[06-21T13:18:36.451292Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   72 / 72 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:36.789341Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(72/72) (Seq = 72).
+[06-21T13:18:36.939885Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:37.433055Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 18456
+[06-21T13:18:37.433606Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:37.433644Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:37.450316Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 72, MSG: Hello, World! (72)
+[06-21T13:18:37.450341Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   73 / 73 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:37.789251Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(73/73) (Seq = 73).
+[06-21T13:18:37.934767Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:38.433855Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 19456
+[06-21T13:18:38.434218Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:38.434256Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:38.449336Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 73, MSG: Hello, World! (73)
+[06-21T13:18:38.449360Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   74 / 74 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:38.789257Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(74/74) (Seq = 74).
+[06-21T13:18:38.935302Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:39.430098Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 20456
+[06-21T13:18:39.430423Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:39.430518Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:39.451601Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 74, MSG: Hello, World! (74)
+[06-21T13:18:39.451623Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   75 / 75 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:39.789275Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(75/75) (Seq = 75).
+[06-21T13:18:39.931359Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:40.431600Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:40.439265Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 21456
+[06-21T13:18:40.440058Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:40.440098Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:40.449992Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 75, MSG: Hello, World! (75)
+[06-21T13:18:40.450013Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   76 / 76 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:40.789234Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(76/76) (Seq = 76).
+[06-21T13:18:40.941410Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:41.441661Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:41.443619Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 22456
+[06-21T13:18:41.444104Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:41.444240Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:41.457186Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 76, MSG: Hello, World! (76)
+[06-21T13:18:41.457211Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   77 / 77 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:41.789642Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(77/77) (Seq = 77).
+[06-21T13:18:41.945385Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:42.433944Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 23456
+[06-21T13:18:42.434300Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:42.434417Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:42.456301Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 77, MSG: Hello, World! (77)
+[06-21T13:18:42.456322Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   78 / 78 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:42.789321Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(78/78) (Seq = 78).
+[06-21T13:18:42.935430Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:43.433891Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 24456
+[06-21T13:18:43.434310Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:43.434350Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:43.453445Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 78, MSG: Hello, World! (78)
+[06-21T13:18:43.453514Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   79 / 79 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:43.789275Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(79/79) (Seq = 79).
+[06-21T13:18:43.935359Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:44.432674Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 25456
+[06-21T13:18:44.433091Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:44.433182Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:44.458076Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 79, MSG: Hello, World! (79)
+[06-21T13:18:44.458107Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   80 / 80 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:44.789285Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(80/80) (Seq = 80).
+[06-21T13:18:44.934108Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:45.434349Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:45.437158Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 26456
+[06-21T13:18:45.438057Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:45.438153Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:45.459574Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 80, MSG: Hello, World! (80)
+[06-21T13:18:45.459595Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   81 / 81 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:45.789306Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(81/81) (Seq = 81).
+[06-21T13:18:45.939283Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:46.434889Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 27456
+[06-21T13:18:46.435414Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:46.435560Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:46.462114Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 81, MSG: Hello, World! (81)
+[06-21T13:18:46.462146Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   82 / 82 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:46.790561Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(82/82) (Seq = 82).
+[06-21T13:18:46.936949Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:47.437349Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:47.440425Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 28456
+[06-21T13:18:47.441058Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:47.441269Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:47.448913Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 82, MSG: Hello, World! (82)
+[06-21T13:18:47.448965Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   83 / 83 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:47.789302Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(83/83) (Seq = 83).
+[06-21T13:18:47.942549Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:48.438447Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 29456
+[06-21T13:18:48.438932Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:48.439027Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:48.453151Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 83, MSG: Hello, World! (83)
+[06-21T13:18:48.453175Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   84 / 84 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:48.789834Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(84/84) (Seq = 84).
+[06-21T13:18:48.939934Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:49.432306Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 30456
+[06-21T13:18:49.432723Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:49.432795Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:49.454800Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 84, MSG: Hello, World! (84)
+[06-21T13:18:49.454821Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   85 / 85 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:49.789282Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(85/85) (Seq = 85).
+[06-21T13:18:49.933660Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:50.432048Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 31456
+[06-21T13:18:50.432495Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:50.432589Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:50.453441Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 85, MSG: Hello, World! (85)
+[06-21T13:18:50.453473Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   86 / 86 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:50.789290Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(86/86) (Seq = 86).
+[06-21T13:18:50.933547Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:51.437948Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:51.439220Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 32456
+[06-21T13:18:51.439594Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:51.439623Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:51.458217Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 86, MSG: Hello, World! (86)
+[06-21T13:18:51.458242Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   87 / 87 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:51.789323Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(87/87) (Seq = 87).
+[06-21T13:18:51.940500Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:52.432964Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 33456
+[06-21T13:18:52.433322Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:52.433403Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:52.457090Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 87, MSG: Hello, World! (87)
+[06-21T13:18:52.457122Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   88 / 88 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:52.789430Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(88/88) (Seq = 88).
+[06-21T13:18:52.934479Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:53.434812Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:53.442846Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 34456
+[06-21T13:18:53.443201Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:53.443291Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:53.452116Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 88, MSG: Hello, World! (88)
+[06-21T13:18:53.452137Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   89 / 89 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:53.789270Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(89/89) (Seq = 89).
+[06-21T13:18:53.944123Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:54.433927Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 35456
+[06-21T13:18:54.434242Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:54.434310Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:54.451179Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 89, MSG: Hello, World! (89)
+[06-21T13:18:54.451201Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   90 / 90 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:54.789324Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(90/90) (Seq = 90).
+[06-21T13:18:54.937489Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:55.437794Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:55.443901Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 36456
+[06-21T13:18:55.444400Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:55.444495Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:55.450607Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 90, MSG: Hello, World! (90)
+[06-21T13:18:55.450657Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   91 / 91 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:55.789250Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(91/91) (Seq = 91).
+[06-21T13:18:55.945587Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:56.438623Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 37456
+[06-21T13:18:56.438860Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:56.438978Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:56.457485Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 91, MSG: Hello, World! (91)
+[06-21T13:18:56.457510Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   92 / 92 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:56.789279Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(92/92) (Seq = 92).
+[06-21T13:18:56.940801Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:57.441064Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:57.441253Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 38456
+[06-21T13:18:57.441578Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:57.441649Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:57.454025Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 92, MSG: Hello, World! (92)
+[06-21T13:18:57.454050Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   93 / 93 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:57.789271Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(93/93) (Seq = 93).
+[06-21T13:18:57.942433Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:58.437491Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 39456
+[06-21T13:18:58.438407Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:58.438685Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:58.452049Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 93, MSG: Hello, World! (93)
+[06-21T13:18:58.452073Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   94 / 94 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:58.789520Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(94/94) (Seq = 94).
+[06-21T13:18:58.939804Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:59.440200Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:18:59.441950Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 40456
+[06-21T13:18:59.442191Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:18:59.442259Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:18:59.454423Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 94, MSG: Hello, World! (94)
+[06-21T13:18:59.454444Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   95 / 95 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:18:59.789288Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(95/95) (Seq = 95).
+[06-21T13:18:59.943114Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:00.437413Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 41456
+[06-21T13:19:00.438024Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:00.438063Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:00.454439Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 95, MSG: Hello, World! (95)
+[06-21T13:19:00.454462Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   96 / 96 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:00.789256Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(96/96) (Seq = 96).
+[06-21T13:19:00.939150Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:01.434179Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 42456
+[06-21T13:19:01.434591Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:01.434629Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:01.447502Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 96, MSG: Hello, World! (96)
+[06-21T13:19:01.447525Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   97 / 97 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:01.789303Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(97/97) (Seq = 97).
+[06-21T13:19:01.935602Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:02.433125Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 43456
+[06-21T13:19:02.433710Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:02.433747Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:02.449115Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 97, MSG: Hello, World! (97)
+[06-21T13:19:02.449140Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   98 / 98 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:02.789258Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(98/98) (Seq = 98).
+[06-21T13:19:02.934878Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:03.433111Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 44456
+[06-21T13:19:03.433578Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:03.433671Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:03.455711Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 98, MSG: Hello, World! (98)
+[06-21T13:19:03.455734Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)   99 / 99 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:03.789341Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(99/99) (Seq = 99).
+[06-21T13:19:03.934697Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:04.434970Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:04.449387Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 45456
+[06-21T13:19:04.449659Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:04.449705Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:04.460245Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 99, MSG: Hello, World! (99)
+[06-21T13:19:04.460266Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  100 / 100 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:04.789353Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(100/100) (Seq = 100).
+[06-21T13:19:04.950351Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:05.441619Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 46456
+[06-21T13:19:05.442138Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:05.442176Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:05.454163Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 100, MSG: Hello, World! (100)
+[06-21T13:19:05.454189Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  101 / 101 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:05.789320Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(101/101) (Seq = 101).
+[06-21T13:19:05.943405Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:06.443316Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 47456
+[06-21T13:19:06.443899Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:06.444531Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:06.444622Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:06.451016Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 101, MSG: Hello, World! (101)
+[06-21T13:19:06.451066Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  102 / 102 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:06.793006Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(102/102) (Seq = 102).
+[06-21T13:19:06.945735Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:07.438052Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 48456
+[06-21T13:19:07.438683Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:07.438800Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:07.452254Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 102, MSG: Hello, World! (102)
+[06-21T13:19:07.452275Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  103 / 103 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:07.789258Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(103/103) (Seq = 103).
+[06-21T13:19:07.939989Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:08.437047Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 49456
+[06-21T13:19:08.437362Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:08.437430Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:08.449277Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 103, MSG: Hello, World! (103)
+[06-21T13:19:08.449297Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  104 / 104 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:08.789302Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(104/104) (Seq = 104).
+[06-21T13:19:08.938332Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:09.434052Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 50456
+[06-21T13:19:09.434421Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:09.434491Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:09.452221Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 104, MSG: Hello, World! (104)
+[06-21T13:19:09.452251Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  105 / 105 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:09.789250Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(105/105) (Seq = 105).
+[06-21T13:19:09.935397Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:10.435654Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:10.445736Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 51456
+[06-21T13:19:10.446099Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:10.446137Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:10.455302Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 105, MSG: Hello, World! (105)
+[06-21T13:19:10.455327Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  106 / 106 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:10.789268Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(106/106) (Seq = 106).
+[06-21T13:19:10.947110Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:11.433076Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 52456
+[06-21T13:19:11.433459Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:11.433495Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:11.449577Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 106, MSG: Hello, World! (106)
+[06-21T13:19:11.449608Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  107 / 107 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:11.789255Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(107/107) (Seq = 107).
+[06-21T13:19:11.934536Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:12.435132Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:12.442469Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 53456
+[06-21T13:19:12.442788Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:12.442827Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:12.450269Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 107, MSG: Hello, World! (107)
+[06-21T13:19:12.450344Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  108 / 108 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:12.789279Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(108/108) (Seq = 108).
+[06-21T13:19:12.943973Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:13.441559Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 54456
+[06-21T13:19:13.442025Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:13.442150Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:13.454661Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 108, MSG: Hello, World! (108)
+[06-21T13:19:13.454685Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  109 / 109 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:13.789305Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(109/109) (Seq = 109).
+[06-21T13:19:13.943281Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:14.438319Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 55456
+[06-21T13:19:14.438686Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:14.438713Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:14.450768Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 109, MSG: Hello, World! (109)
+[06-21T13:19:14.450789Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  110 / 110 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:14.789312Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(110/110) (Seq = 110).
+[06-21T13:19:14.939579Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:15.439781Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:15.440199Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 56456
+[06-21T13:19:15.440770Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:15.440811Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:15.450019Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 110, MSG: Hello, World! (110)
+[06-21T13:19:15.450045Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  111 / 111 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:15.789249Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(111/111) (Seq = 111).
+[06-21T13:19:15.942049Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:16.439356Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 57456
+[06-21T13:19:16.440084Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:16.440216Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:16.458472Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 111, MSG: Hello, World! (111)
+[06-21T13:19:16.458503Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  112 / 112 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:16.789243Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(112/112) (Seq = 112).
+[06-21T13:19:16.941295Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:17.436567Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 58456
+[06-21T13:19:17.436995Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:17.437022Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:17.455442Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 112, MSG: Hello, World! (112)
+[06-21T13:19:17.455463Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  113 / 113 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:17.789400Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(113/113) (Seq = 113).
+[06-21T13:19:17.937858Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:18.436237Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 59456
+[06-21T13:19:18.436921Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:18.437051Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:18.449070Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 113, MSG: Hello, World! (113)
+[06-21T13:19:18.449091Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  114 / 114 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:18.789335Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(114/114) (Seq = 114).
+[06-21T13:19:18.938279Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:19.438574Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:19.446387Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 60456
+[06-21T13:19:19.446755Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:19.446824Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:19.453738Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 114, MSG: Hello, World! (114)
+[06-21T13:19:19.453758Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  115 / 115 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:19.789258Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(115/115) (Seq = 115).
+[06-21T13:19:19.948040Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:20.433058Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 61456
+[06-21T13:19:20.433512Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:20.433610Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:20.448363Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 115, MSG: Hello, World! (115)
+[06-21T13:19:20.448385Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  116 / 116 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:20.789356Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(116/116) (Seq = 116).
+[06-21T13:19:20.934626Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:21.434858Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:21.441336Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 62456
+[06-21T13:19:21.441759Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:21.441798Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:21.451244Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 116, MSG: Hello, World! (116)
+[06-21T13:19:21.451286Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  117 / 117 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:21.789266Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(117/117) (Seq = 117).
+[06-21T13:19:21.942960Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:22.438586Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 63456
+[06-21T13:19:22.439238Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:22.439375Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:22.450464Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 117, MSG: Hello, World! (117)
+[06-21T13:19:22.450485Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  118 / 118 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:22.789265Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(118/118) (Seq = 118).
+[06-21T13:19:22.944805Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:23.434218Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 64456
+[06-21T13:19:23.434742Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:23.434779Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:23.455462Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 118, MSG: Hello, World! (118)
+[06-21T13:19:23.455493Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  119 / 119 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:23.789312Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(119/119) (Seq = 119).
+[06-21T13:19:23.936136Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:24.436086Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 65456
+[06-21T13:19:24.436465Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:24.436639Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:24.460344Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 119, MSG: Hello, World! (119)
+[06-21T13:19:24.460366Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  120 / 120 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:24.789264Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(120/120) (Seq = 120).
+[06-21T13:19:24.938107Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:25.438586Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:25.442720Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 920
+[06-21T13:19:25.443223Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:25.443261Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:25.452722Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 120, MSG: Hello, World! (120)
+[06-21T13:19:25.452788Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  121 / 121 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:25.789281Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(121/121) (Seq = 121).
+[06-21T13:19:25.944367Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:26.433415Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 1920
+[06-21T13:19:26.433854Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:26.433894Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:26.455113Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 121, MSG: Hello, World! (121)
+[06-21T13:19:26.455145Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  122 / 122 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:26.796363Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(122/122) (Seq = 122).
+[06-21T13:19:26.934729Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:27.434979Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:27.440813Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 2920
+[06-21T13:19:27.441299Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:27.441338Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:27.458087Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 122, MSG: Hello, World! (122)
+[06-21T13:19:27.458115Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  123 / 123 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:27.789241Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(123/123) (Seq = 123).
+[06-21T13:19:27.942572Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:28.433045Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 3920
+[06-21T13:19:28.433429Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:28.433466Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:28.458181Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 123, MSG: Hello, World! (123)
+[06-21T13:19:28.458210Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  124 / 124 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:28.789251Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(124/124) (Seq = 124).
+[06-21T13:19:28.934547Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:29.434742Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:29.443415Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 4920
+[06-21T13:19:29.444381Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:29.444471Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:29.448337Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 124, MSG: Hello, World! (124)
+[06-21T13:19:29.448358Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  125 / 125 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:29.789333Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(125/125) (Seq = 125).
+[06-21T13:19:29.945222Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:30.436434Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 5920
+[06-21T13:19:30.437123Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:30.437321Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:30.465108Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 125, MSG: Hello, World! (125)
+[06-21T13:19:30.465137Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  126 / 126 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:30.789295Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(126/126) (Seq = 126).
+[06-21T13:19:30.938566Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:31.434425Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 6920
+[06-21T13:19:31.434930Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:31.434957Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:31.458595Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 126, MSG: Hello, World! (126)
+[06-21T13:19:31.458619Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  127 / 127 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:31.789243Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(127/127) (Seq = 127).
+[06-21T13:19:31.935803Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:32.431155Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 7920
+[06-21T13:19:32.436402Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:32.436620Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:32.449335Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 127, MSG: Hello, World! (127)
+[06-21T13:19:32.449359Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  128 / 128 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:32.789243Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(128/128) (Seq = 128).
+[06-21T13:19:32.937481Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:33.437961Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:33.439716Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 8920
+[06-21T13:19:33.440392Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:33.440430Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:33.462131Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 128, MSG: Hello, World! (128)
+[06-21T13:19:33.462163Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  129 / 129 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:33.789251Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(129/129) (Seq = 129).
+[06-21T13:19:33.941632Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:34.440506Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 9920
+[06-21T13:19:34.440935Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:34.441037Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:34.449379Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 129, MSG: Hello, World! (129)
+[06-21T13:19:34.449400Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  130 / 130 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:34.789238Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(130/130) (Seq = 130).
+[06-21T13:19:34.941938Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:35.435050Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 10920
+[06-21T13:19:35.435636Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:35.435673Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:35.452541Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 130, MSG: Hello, World! (130)
+[06-21T13:19:35.452565Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  131 / 131 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:35.789295Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(131/131) (Seq = 131).
+[06-21T13:19:35.937086Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:36.437326Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:36.437471Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 11920
+[06-21T13:19:36.437737Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:36.437757Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:36.447670Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 131, MSG: Hello, World! (131)
+[06-21T13:19:36.447692Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  132 / 132 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:36.789724Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(132/132) (Seq = 132).
+[06-21T13:19:36.938717Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:37.435041Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 12920
+[06-21T13:19:37.435424Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:37.435463Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:37.451216Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 132, MSG: Hello, World! (132)
+[06-21T13:19:37.451237Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  133 / 133 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:37.789703Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(133/133) (Seq = 133).
+[06-21T13:19:37.936594Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:38.433115Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 13920
+[06-21T13:19:38.433474Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:38.433511Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:38.448410Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 133, MSG: Hello, World! (133)
+[06-21T13:19:38.448430Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  134 / 134 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:38.789754Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(134/134) (Seq = 134).
+[06-21T13:19:38.934560Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:39.429904Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 14920
+[06-21T13:19:39.430177Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:39.430204Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:39.453244Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 134, MSG: Hello, World! (134)
+[06-21T13:19:39.453265Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  135 / 135 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:39.789314Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(135/135) (Seq = 135).
+[06-21T13:19:39.931012Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:40.431253Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:40.440707Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 15920
+[06-21T13:19:40.441379Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:40.441548Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:40.450692Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 135, MSG: Hello, World! (135)
+[06-21T13:19:40.450759Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  136 / 136 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:40.791499Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(136/136) (Seq = 136).
+[06-21T13:19:40.942912Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:41.433154Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 16920
+[06-21T13:19:41.433609Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:41.433709Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:41.447129Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 136, MSG: Hello, World! (136)
+[06-21T13:19:41.447153Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  137 / 137 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:41.789268Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(137/137) (Seq = 137).
+[06-21T13:19:41.934809Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:42.435178Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:42.441547Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 17920
+[06-21T13:19:42.442087Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:42.442124Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:42.458480Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 137, MSG: Hello, World! (137)
+[06-21T13:19:42.458500Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  138 / 138 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:42.789258Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(138/138) (Seq = 138).
+[06-21T13:19:42.943193Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:43.433092Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 18920
+[06-21T13:19:43.433473Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:43.433567Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:43.456812Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 138, MSG: Hello, World! (138)
+[06-21T13:19:43.456833Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  139 / 139 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:43.789280Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(139/139) (Seq = 139).
+[06-21T13:19:43.934416Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:44.434590Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:44.439208Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 19920
+[06-21T13:19:44.439665Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:44.439703Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:44.451607Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 139, MSG: Hello, World! (139)
+[06-21T13:19:44.451632Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  140 / 140 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:44.789253Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(140/140) (Seq = 140).
+[06-21T13:19:44.940785Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:45.432145Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 20920
+[06-21T13:19:45.436131Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:45.436228Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:45.452567Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 140, MSG: Hello, World! (140)
+[06-21T13:19:45.452588Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  141 / 141 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:45.789285Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(141/141) (Seq = 141).
+[06-21T13:19:45.937252Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:46.437444Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:46.445724Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 21920
+[06-21T13:19:46.446108Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:46.446149Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:46.452724Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 141, MSG: Hello, World! (141)
+[06-21T13:19:46.452793Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  142 / 142 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:46.789283Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(142/142) (Seq = 142).
+[06-21T13:19:46.947109Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:47.439083Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 22920
+[06-21T13:19:47.439804Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:47.439923Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:47.457480Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 142, MSG: Hello, World! (142)
+[06-21T13:19:47.457512Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  143 / 143 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:47.790283Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(143/143) (Seq = 143).
+[06-21T13:19:47.941084Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:48.437185Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 23920
+[06-21T13:19:48.440206Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:48.440234Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:48.452392Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 143, MSG: Hello, World! (143)
+[06-21T13:19:48.452413Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  144 / 144 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:48.789267Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(144/144) (Seq = 144).
+[06-21T13:19:48.941148Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:49.433979Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 24920
+[06-21T13:19:49.434407Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:49.434448Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:49.456507Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 144, MSG: Hello, World! (144)
+[06-21T13:19:49.456538Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  145 / 145 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:49.789258Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(145/145) (Seq = 145).
+[06-21T13:19:49.935361Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:50.436366Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 25920
+[06-21T13:19:50.437471Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:50.437595Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:50.437615Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:50.458274Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 145, MSG: Hello, World! (145)
+[06-21T13:19:50.458298Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  146 / 146 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:50.789239Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(146/146) (Seq = 146).
+[06-21T13:19:50.940680Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:51.437138Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 26920
+[06-21T13:19:51.437606Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:51.437702Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:51.450391Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 146, MSG: Hello, World! (146)
+[06-21T13:19:51.450416Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  147 / 147 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:51.789308Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(147/147) (Seq = 147).
+[06-21T13:19:51.938766Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:52.439869Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:52.448555Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 27920
+[06-21T13:19:52.449470Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:52.449498Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:52.453406Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 147, MSG: Hello, World! (147)
+[06-21T13:19:52.453426Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  148 / 148 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:52.789335Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(148/148) (Seq = 148).
+[06-21T13:19:52.950508Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:53.446532Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 28920
+[06-21T13:19:53.446850Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:53.446912Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:53.454010Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 148, MSG: Hello, World! (148)
+[06-21T13:19:53.454057Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  149 / 149 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:53.789309Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(149/149) (Seq = 149).
+[06-21T13:19:53.947774Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:54.436155Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 29920
+[06-21T13:19:54.436518Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:54.436557Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:54.466143Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 149, MSG: Hello, World! (149)
+[06-21T13:19:54.466174Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  150 / 150 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:54.789384Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(150/150) (Seq = 150).
+[06-21T13:19:54.937732Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:55.433097Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 30920
+[06-21T13:19:55.433566Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:55.433659Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:55.452121Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 150, MSG: Hello, World! (150)
+[06-21T13:19:55.452153Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  151 / 151 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:55.789289Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(151/151) (Seq = 151).
+[06-21T13:19:55.934669Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:56.434818Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:56.437553Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 31920
+[06-21T13:19:56.437874Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:56.437947Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:56.451318Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 151, MSG: Hello, World! (151)
+[06-21T13:19:56.451344Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  152 / 152 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:56.789247Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(152/152) (Seq = 152).
+[06-21T13:19:56.938794Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:57.437296Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 32920
+[06-21T13:19:57.437824Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:57.437967Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:57.452484Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 152, MSG: Hello, World! (152)
+[06-21T13:19:57.452510Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  153 / 153 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:57.789266Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(153/153) (Seq = 153).
+[06-21T13:19:57.939268Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:58.431043Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 33920
+[06-21T13:19:58.431479Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:58.431581Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:58.457510Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 153, MSG: Hello, World! (153)
+[06-21T13:19:58.457530Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  154 / 154 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:58.789252Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(154/154) (Seq = 154).
+[06-21T13:19:58.932452Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:59.432704Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:19:59.434673Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 34920
+[06-21T13:19:59.435098Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:19:59.435125Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:19:59.459262Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 154, MSG: Hello, World! (154)
+[06-21T13:19:59.459293Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  155 / 155 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:19:59.789312Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(155/155) (Seq = 155).
+[06-21T13:19:59.936068Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:00.434123Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 35920
+[06-21T13:20:00.434594Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:00.434695Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:00.456458Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 155, MSG: Hello, World! (155)
+[06-21T13:20:00.456490Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  156 / 156 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:00.789263Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(156/156) (Seq = 156).
+[06-21T13:20:00.935800Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:01.431012Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 36920
+[06-21T13:20:01.431354Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:01.431422Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:01.450208Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 156, MSG: Hello, World! (156)
+[06-21T13:20:01.450232Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  157 / 157 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:01.789276Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(157/157) (Seq = 157).
+[06-21T13:20:01.932221Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:02.432500Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:02.434119Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 37920
+[06-21T13:20:02.434617Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:02.434716Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:02.448166Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 157, MSG: Hello, World! (157)
+[06-21T13:20:02.448190Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  158 / 158 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:02.789280Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(158/158) (Seq = 158).
+[06-21T13:20:02.935794Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:03.436562Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:03.441340Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 38920
+[06-21T13:20:03.441830Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:03.441956Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:03.449707Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 158, MSG: Hello, World! (158)
+[06-21T13:20:03.449753Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  159 / 159 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:03.789375Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(159/159) (Seq = 159).
+[06-21T13:20:03.942914Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:04.433491Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 39920
+[06-21T13:20:04.433765Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:04.433795Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:04.447170Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 159, MSG: Hello, World! (159)
+[06-21T13:20:04.447195Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  160 / 160 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:04.789335Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(160/160) (Seq = 160).
+[06-21T13:20:04.934628Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:05.435042Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:05.435273Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 40920
+[06-21T13:20:05.435940Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:05.436112Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:05.456453Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 160, MSG: Hello, World! (160)
+[06-21T13:20:05.456474Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  161 / 161 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:05.789237Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(161/161) (Seq = 161).
+[06-21T13:20:05.937417Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:06.434008Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 41920
+[06-21T13:20:06.434367Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:06.434403Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:06.453160Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 161, MSG: Hello, World! (161)
+[06-21T13:20:06.453189Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  162 / 162 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:06.789305Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(162/162) (Seq = 162).
+[06-21T13:20:06.935441Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:07.435901Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:07.438141Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 42920
+[06-21T13:20:07.444863Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:07.444883Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:07.451413Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 162, MSG: Hello, World! (162)
+[06-21T13:20:07.451436Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  163 / 163 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:07.789522Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(163/163) (Seq = 163).
+[06-21T13:20:07.945542Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:08.432887Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 43920
+[06-21T13:20:08.438357Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:08.438399Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:08.447397Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 163, MSG: Hello, World! (163)
+[06-21T13:20:08.447421Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  164 / 164 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:08.789253Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(164/164) (Seq = 164).
+[06-21T13:20:08.939162Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:09.431120Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 44920
+[06-21T13:20:09.431575Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:09.431676Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:09.454730Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 164, MSG: Hello, World! (164)
+[06-21T13:20:09.454762Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  165 / 165 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:09.789346Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(165/165) (Seq = 165).
+[06-21T13:20:09.932784Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:10.430962Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 45920
+[06-21T13:20:10.431316Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:10.431385Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:10.454315Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 165, MSG: Hello, World! (165)
+[06-21T13:20:10.454346Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  166 / 166 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:10.789244Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(166/166) (Seq = 166).
+[06-21T13:20:10.932301Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:11.432514Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:11.447894Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 46920
+[06-21T13:20:11.448321Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:11.448359Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:11.454953Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 166, MSG: Hello, World! (166)
+[06-21T13:20:11.455052Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  167 / 167 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:11.789245Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(167/167) (Seq = 167).
+[06-21T13:20:11.949746Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:12.440636Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 47920
+[06-21T13:20:12.441155Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:12.441194Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:12.468278Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 167, MSG: Hello, World! (167)
+[06-21T13:20:12.468310Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  168 / 168 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:12.789236Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(168/168) (Seq = 168).
+[06-21T13:20:12.942228Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:13.432573Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 48920
+[06-21T13:20:13.432958Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:13.433054Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:13.450548Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 168, MSG: Hello, World! (168)
+[06-21T13:20:13.450571Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  169 / 169 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:13.789262Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(169/169) (Seq = 169).
+[06-21T13:20:13.933825Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:14.434096Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:14.434221Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 49920
+[06-21T13:20:14.434791Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:14.434829Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:14.449160Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 169, MSG: Hello, World! (169)
+[06-21T13:20:14.449180Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  170 / 170 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:14.789257Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(170/170) (Seq = 170).
+[06-21T13:20:14.935902Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:15.436125Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:15.446251Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 50920
+[06-21T13:20:15.446717Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:15.446814Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:15.456888Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 170, MSG: Hello, World! (170)
+[06-21T13:20:15.457100Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  171 / 171 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:15.789741Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(171/171) (Seq = 171).
+[06-21T13:20:15.947908Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:16.437064Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 51920
+[06-21T13:20:16.437516Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:16.437616Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:16.452092Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 171, MSG: Hello, World! (171)
+[06-21T13:20:16.452117Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  172 / 172 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:16.789350Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(172/172) (Seq = 172).
+[06-21T13:20:16.938727Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:17.439618Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:17.444617Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 52920
+[06-21T13:20:17.445419Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:17.445579Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:17.455038Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 172, MSG: Hello, World! (172)
+[06-21T13:20:17.455063Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  173 / 173 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:17.789256Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(173/173) (Seq = 173).
+[06-21T13:20:17.946912Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:18.434281Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 53920
+[06-21T13:20:18.434633Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:18.434699Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:18.459339Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 173, MSG: Hello, World! (173)
+[06-21T13:20:18.459360Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  174 / 174 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:18.789241Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(174/174) (Seq = 174).
+[06-21T13:20:18.935511Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:19.432307Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 54920
+[06-21T13:20:19.432687Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:19.432723Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:19.452370Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 174, MSG: Hello, World! (174)
+[06-21T13:20:19.452391Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  175 / 175 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:19.789272Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(175/175) (Seq = 175).
+[06-21T13:20:19.933676Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:20.433863Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:20.438128Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 55920
+[06-21T13:20:20.438836Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:20.438972Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:20.451428Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 175, MSG: Hello, World! (175)
+[06-21T13:20:20.451452Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  176 / 176 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:20.789258Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(176/176) (Seq = 176).
+[06-21T13:20:20.940205Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:21.435047Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 56920
+[06-21T13:20:21.435365Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:21.435393Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:21.452324Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 176, MSG: Hello, World! (176)
+[06-21T13:20:21.452357Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  177 / 177 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:21.789356Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(177/177) (Seq = 177).
+[06-21T13:20:21.936308Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:22.435027Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 57920
+[06-21T13:20:22.435541Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:22.435605Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:22.460409Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 177, MSG: Hello, World! (177)
+[06-21T13:20:22.460440Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  178 / 178 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:22.789324Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(178/178) (Seq = 178).
+[06-21T13:20:22.936771Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:23.434351Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 58920
+[06-21T13:20:23.434762Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:23.434803Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:23.448596Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 178, MSG: Hello, World! (178)
+[06-21T13:20:23.448617Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  179 / 179 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:23.789482Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(179/179) (Seq = 179).
+[06-21T13:20:23.935613Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:24.434121Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 59920
+[06-21T13:20:24.434513Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:24.434609Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:24.448387Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 179, MSG: Hello, World! (179)
+[06-21T13:20:24.448412Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  180 / 180 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:24.789337Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(180/180) (Seq = 180).
+[06-21T13:20:24.935853Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:25.432078Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 60920
+[06-21T13:20:25.432523Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:25.432620Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:25.462088Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 180, MSG: Hello, World! (180)
+[06-21T13:20:25.462119Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  181 / 181 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:25.789252Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(181/181) (Seq = 181).
+[06-21T13:20:25.933637Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:26.433951Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:26.436005Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 61920
+[06-21T13:20:26.436521Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:26.436618Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:26.461202Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 181, MSG: Hello, World! (181)
+[06-21T13:20:26.461233Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  182 / 182 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:26.789256Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(182/182) (Seq = 182).
+[06-21T13:20:26.937861Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:27.438188Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:27.443028Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 62920
+[06-21T13:20:27.443451Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:27.443493Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:27.453253Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 182, MSG: Hello, World! (182)
+[06-21T13:20:27.453277Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  183 / 183 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:27.789272Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(183/183) (Seq = 183).
+[06-21T13:20:27.944524Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:28.432128Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 63920
+[06-21T13:20:28.432542Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:28.432596Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:28.459417Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 183, MSG: Hello, World! (183)
+[06-21T13:20:28.459438Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  184 / 184 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:28.789262Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(184/184) (Seq = 184).
+[06-21T13:20:28.933441Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:29.434037Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:29.434160Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 64920
+[06-21T13:20:29.434757Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:29.434809Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:29.451667Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 184, MSG: Hello, World! (184)
+[06-21T13:20:29.451699Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  185 / 185 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:29.789275Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(185/185) (Seq = 185).
+[06-21T13:20:29.935806Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:30.436129Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:30.442849Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 384
+[06-21T13:20:30.443775Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:30.443942Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:30.458164Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 185, MSG: Hello, World! (185)
+[06-21T13:20:30.458186Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  186 / 186 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:30.789503Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(186/186) (Seq = 186).
+[06-21T13:20:30.944880Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:31.433137Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 1384
+[06-21T13:20:31.433522Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:31.433562Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:31.459163Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 186, MSG: Hello, World! (186)
+[06-21T13:20:31.459195Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  187 / 187 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:31.789302Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(187/187) (Seq = 187).
+[06-21T13:20:31.934574Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:32.434954Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:32.437620Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 2384
+[06-21T13:20:32.438323Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:32.438457Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:32.450680Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 187, MSG: Hello, World! (187)
+[06-21T13:20:32.450702Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  188 / 188 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:32.789589Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(188/188) (Seq = 188).
+[06-21T13:20:32.939388Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:33.439671Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:33.445788Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 3384
+[06-21T13:20:33.446163Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:33.446202Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:33.452827Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 188, MSG: Hello, World! (188)
+[06-21T13:20:33.452880Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  189 / 189 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:33.789361Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(189/189) (Seq = 189).
+[06-21T13:20:33.947152Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:34.430985Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 4384
+[06-21T13:20:34.431403Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:34.431497Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:34.459476Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 189, MSG: Hello, World! (189)
+[06-21T13:20:34.459507Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  190 / 190 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:34.789308Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(190/190) (Seq = 190).
+[06-21T13:20:34.932504Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:35.432798Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:35.442795Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 5384
+[06-21T13:20:35.446049Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:35.446114Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:35.451321Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 190, MSG: Hello, World! (190)
+[06-21T13:20:35.451342Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  191 / 191 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:35.789368Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(191/191) (Seq = 191).
+[06-21T13:20:35.946959Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:36.433050Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 6384
+[06-21T13:20:36.433567Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:36.433667Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:36.449306Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 191, MSG: Hello, World! (191)
+[06-21T13:20:36.449374Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  192 / 192 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:36.789238Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(192/192) (Seq = 192).
+[06-21T13:20:36.934722Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:37.435010Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:37.435135Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 7384
+[06-21T13:20:37.435578Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:37.435652Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:37.457990Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 192, MSG: Hello, World! (192)
+[06-21T13:20:37.458011Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  193 / 193 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:37.789259Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(193/193) (Seq = 193).
+[06-21T13:20:37.936578Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:38.433327Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 8384
+[06-21T13:20:38.433708Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:38.433746Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:38.461100Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 193, MSG: Hello, World! (193)
+[06-21T13:20:38.461132Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  194 / 194 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:38.789259Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(194/194) (Seq = 194).
+[06-21T13:20:38.934683Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:39.434950Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:39.435467Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 9384
+[06-21T13:20:39.435975Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:39.436076Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:39.449315Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 194, MSG: Hello, World! (194)
+[06-21T13:20:39.449339Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  195 / 195 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:39.789334Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(195/195) (Seq = 195).
+[06-21T13:20:39.937105Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:40.437564Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:40.443350Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 10384
+[06-21T13:20:40.443747Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:40.443888Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:40.450831Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 195, MSG: Hello, World! (195)
+[06-21T13:20:40.450934Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  196 / 196 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:40.789330Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(196/196) (Seq = 196).
+[06-21T13:20:40.944971Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:41.435072Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 11384
+[06-21T13:20:41.435434Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:41.435471Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:41.450228Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 196, MSG: Hello, World! (196)
+[06-21T13:20:41.450255Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  197 / 197 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:41.789252Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(197/197) (Seq = 197).
+[06-21T13:20:41.936679Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:42.435428Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 12384
+[06-21T13:20:42.435959Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:42.436002Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:42.456717Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 197, MSG: Hello, World! (197)
+[06-21T13:20:42.456739Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  198 / 198 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:42.789296Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(198/198) (Seq = 198).
+[06-21T13:20:42.936781Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:43.435129Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 13384
+[06-21T13:20:43.435596Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:43.435692Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:43.449205Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 198, MSG: Hello, World! (198)
+[06-21T13:20:43.449230Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  199 / 199 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:43.789311Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(199/199) (Seq = 199).
+[06-21T13:20:43.936718Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:44.437060Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:44.442156Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 14384
+[06-21T13:20:44.442430Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:44.442536Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:44.449771Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 199, MSG: Hello, World! (199)
+[06-21T13:20:44.449792Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  200 / 200 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:44.789298Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(200/200) (Seq = 200).
+[06-21T13:20:44.943321Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:45.437158Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 15384
+[06-21T13:20:45.437699Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:45.437737Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:45.463192Z] RAWIts_ExtCallback: [AOC] Raw message from StationID=0x485004ba, Seq 200, MSG: Hello, World! (200)
+[06-21T13:20:45.463216Z] RAWIts_ExtCallback: [AOC] Rx statistics: (COUNT)  201 / 201 	(RSSI) -128 	 (CHANNEL LOAD)    0
+[06-21T13:20:45.789272Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(201/201) (Seq = 201).
+[06-21T13:20:45.938845Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:46.437303Z] ITSRx_ExtCallback: [AOC] Received a decoded ITSFL CAM! StationId 0x485004ba dTime 16384
+[06-21T13:20:46.438949Z] ITSRx_ProcessMessage: [AOC] Processing recieved message in its-rx-thr.
+[06-21T13:20:46.439005Z] ITSRx_ProcessMessage: [AOC] Message not null.
+[06-21T13:20:46.789242Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(202/202) (Seq = 202).
+[06-21T13:20:46.940045Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:47.440460Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:47.789260Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(203/203) (Seq = 203).
+[06-21T13:20:47.940854Z] ITSRx_ThreadProc: [AOC] Local CAM StationId 0x4850084a role 0
+[06-21T13:20:47.940911Z] ITSRx_ThreadProc: [AOC] ITS Rx thread done
+[06-21T13:20:48.789440Z] RAWIts_ReqSend: [AOC] RAW message successfully transmited(204/204) (Seq = 204).
+[06-21T13:20:48.789704Z] RAWIts_ThreadProc: [AOC] RAWITS thread proc stopped after 204 messages
+[06-21T13:20:48.789975Z] RAWIts_Close: [AOC] RAWITS thread close! (0)
